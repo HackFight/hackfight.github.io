@@ -1,0 +1,139 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --text: #27182a;
+    --background: #f3f1f1;
+    --primary: #fbcff5;
+    --secondary: #ffbed7;
+    --accent: #ffb7ad;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    /*
+    --text: #e4d5e7;
+    --background: #0e0c0c;
+    --primary: #dc8df2;
+    --secondary: #f28de4;
+    --accent: #f28dac;
+    */
+
+    --text: #dbdff3;
+    --background: #050810;
+    --primary: #772866;
+    --secondary: #1a3587;
+    --accent: #c1486f;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  font-family: Futura, Bahnschrift, Whitney, sans-serif;
+  margin: 0;
+  background-color: var(--background);
+  color: var(--text);
+}
+body h1 strong {
+  color: var(--primary);
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  
+  height: 6em;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  height: 100%;
+  width: 100%;
+  padding: 0 1em;
+  min-height: calc(100vh - 6em); /* 100vh - header size*/
+}
+.profile-picture {
+  background-image: url("Xolotl_headshot.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 25px;
+  height: 20em;
+  margin: 0 10em;
+}
+.hero {
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3em;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 4em 1em;
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+@media (max-width: 1024px) {
+  .profile-picture {
+    background-image: url("Xolotl_headshot.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    border-radius: 25px;
+    height: 10em;
+    margin: 0 4em;
+  }
+  .hero h1 {
+    font-size: 2em;
+  }
+  .footer {
+    padding: 2em 1em;
+  }
+}
+
+
+
+/* ===== Scrollbar CSS ===== */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--background);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 10px;
+  border: 3px none var(--background);
+}
