@@ -5,6 +5,7 @@
     --primary: #fbcff5;
     --secondary: #ffbed7;
     --accent: #ffb7ad;
+    --shadow: #757575;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -22,6 +23,7 @@
     --primary: #772866;
     --secondary: #1a3587;
     --accent: #c1486f;
+    --shadow: #000000;
   }
 }
 
@@ -78,7 +80,7 @@ body h1 strong {
   background-repeat: no-repeat;
   background-size: cover;
 
-  box-shadow: inset 0 0 20px #000000;
+  box-shadow: inset 0 0 20px var(--shadow);
   border-radius: 25px;
   
   height: 20em;
@@ -114,7 +116,7 @@ body h1 strong {
   }
   .profile-picture {
 
-    box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px var(--shadow);
     border-radius: 20px;
     height: 10em;
     margin: 0 5em;
