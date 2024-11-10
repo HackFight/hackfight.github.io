@@ -50,9 +50,13 @@ body h1 strong {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  
+
   height: 6em;
   text-align: center;
+}
+.header a {
+  text-decoration: none;
+  color: var(--text);
 }
 
 .main {
@@ -66,7 +70,7 @@ body h1 strong {
   min-height: calc(100vh - 6em); /* 100vh - header size*/
 }
 .profile-picture {
-  background-image: url("Xolotl_headshot.png");
+  background-image: url("pfp.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -98,7 +102,7 @@ body h1 strong {
 
 @media (max-width: 1024px) {
   .profile-picture {
-    background-image: url("Xolotl_headshot.png");
+    background-image: url("pfp.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
