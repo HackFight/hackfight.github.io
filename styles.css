@@ -1,3 +1,4 @@
+/* ===== Themes ===== */
 @media (prefers-color-scheme: light) {
   :root {
     --text: #27182a;
@@ -27,6 +28,7 @@
   }
 }
 
+/* ===== General ===== */
 * {
   box-sizing: border-box;
   overflow-x: hidden;
@@ -43,7 +45,6 @@ body h1 {
 body h1 strong {
   color: var(--primary);
 }
-
 .container {
   display: flex;
   flex-flow: column nowrap;
@@ -53,6 +54,7 @@ body h1 strong {
   min-height: 100vh;
 }
 
+/* ===== Header ===== */
 .header {
   display: flex;
   flex-flow: column nowrap;
@@ -67,6 +69,7 @@ body h1 strong {
   color: var(--text);
 }
 
+/* ===== Main ===== */
 .main {
   display: flex;
   flex-flow: column nowrap;
@@ -79,7 +82,7 @@ body h1 strong {
   min-height: calc(100vh - 6em); /* 100vh - header size*/
 }
 .profile-picture {
-  background-image: url("pfp.webp");
+  background-image: url("images/pfp.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,6 +103,8 @@ body h1 strong {
   font-weight: 800;
   letter-spacing: -0.04em;
 }
+
+/* ===== Footer ===== */
 .footer {
   display: flex;
   flex-direction: column;
@@ -114,6 +119,7 @@ body h1 strong {
   color: var(--primary);
 }
 
+/* ===== Phone format ===== */
 @media (max-width: 1024px) {
   .header {
     height: 4em;
@@ -135,8 +141,6 @@ body h1 strong {
     padding: 2em 1em;
   }
 }
-
-
 
 /* ===== Scrollbar CSS ===== */
 * {
