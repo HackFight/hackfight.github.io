@@ -64,10 +64,6 @@ body h1 strong {
   width: 100vw;
   text-align: center;
 }
-.header a {
-  text-decoration: none;
-  color: var(--text);
-}
 
 /* ===== Main ===== */
 .main {
@@ -97,11 +93,19 @@ body h1 strong {
 }
 .hero {
   text-align: center;
+  padding-bottom: 4em;
 }
 .hero h1 {
   font-size: 3em;
   font-weight: 800;
   letter-spacing: -0.04em;
+}
+.button {
+  background-color: var(--primary);
+  border-radius: 25px;
+  text-align: center;
+
+  padding: 1em 2em;
 }
 
 /* ===== Footer ===== */
@@ -117,6 +121,12 @@ body h1 strong {
 .footer a {
   text-decoration: none;
   color: var(--primary);
+}
+
+/* ===== Other elements ===== */
+a {
+  text-decoration: none;
+  color: var(--text);
 }
 
 /* ===== Phone format ===== */
