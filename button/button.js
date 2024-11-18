@@ -1,5 +1,3 @@
-console.log("Script linked!");
-
 let count = 0;
 
 const button = document.getElementById('button');
