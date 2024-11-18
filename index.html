@@ -4,6 +4,7 @@
         <title>HackFight - Welcome</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="icon" type="image/x-icon" href="images/icon.webp">
@@ -20,10 +21,20 @@
             <div class="header">
                 <div class="header-wrapper">
                     <a href="https://www.hackfight.dev"><h1>HackFight.dev</h1></a>
-                    <div class="header-menu">
+                    <!-- Desktop navbar -->
+                    <div class="navbar-desktop">
                         <a href="https://www.hackfight.dev"><h2>Home</h2></a>
                         <a href="https://www.hackfight.dev/about"><h2>About</h2></a>
                         <a href="https://www.hackfight.dev/button"><h2>Button</h2></a>
+                    </div>
+                    <!-- Phone navbar -->
+                    <div class="navbar-phone">
+                        <span class="material-icons">menu</span>
+                        <div class="modal">
+                            <a href="https://www.hackfight.dev"><h2>Home</h2></a>
+                            <a href="https://www.hackfight.dev/about"><h2>About</h2></a>
+                            <a href="https://www.hackfight.dev/button"><h2>Button</h2></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -50,5 +61,6 @@
                 </span>
             </div>
         </div>
+        <script src="navbar.js"></script>
     </body>
 </html>
