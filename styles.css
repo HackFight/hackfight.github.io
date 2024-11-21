@@ -204,12 +204,26 @@ body {
   align-items: center;
   
   width: 100vw;
-  padding: 4em 1em;
+  padding: 0 2em 2em;
   text-align: center;
 }
 .footer a {
   text-decoration: none;
   color: var(--primary);
+}
+.footer p {
+  padding: 1em;
+}
+.footer ul
+{
+  padding: 0;
+}
+.footer ul a {
+  padding: 0 0.5em;
+}
+.contact-icon {
+  color: var(--secondary);
+  max-height: 3em;
 }
 
 /* ===== Texts ===== */
@@ -287,7 +301,7 @@ a:hover {
     padding-left: 20px;
   }
   .footer {
-    padding: 2em 1em;
+    padding: 0 1em 1em;
   }
 }
 
