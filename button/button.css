@@ -10,7 +10,6 @@
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  font-size: 3em;
   user-select: none;
 
   transition-timing-function: ease-in-out;
@@ -29,4 +28,7 @@
 
   transition-timing-function: ease-in-out;
   transition-duration: 0.1s;
+}
+#counter {
+  font-size: 3em;
 }
