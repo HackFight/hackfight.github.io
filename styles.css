@@ -138,7 +138,9 @@ p {
 .navbar-phone .modal a {
   color: var(--background);
   font-size: xx-large;
-  margin: 1em;
+}
+.navbar-phone .modal h2 {
+  margin: 0.5em 0em;
 }
 
 /* ===== Main ===== */
@@ -287,6 +289,9 @@ a:hover {
   }
   .footer {
     padding: 0 1em 1em;
+  }
+  ul {
+    padding: 0;
   }
 }
 
