@@ -1,0 +1,9 @@
+[author]
+  name = "HackFight"
+  location = "Switzerland"
+  description = "A young game developer interested in low level and VR."
+  profile_image = "/images/your-profile.jpg" # Place in your site's static/images/
+  # Social links
+  github = "https://github.com/hackfight"
+  email = "hackfightowo@hackfight.dev"
+  # ... other social links ...
