@@ -1,0 +1,29 @@
+[whatIWorkWith]
+other = "我使用的技術"
+
+[experienceTitle]
+other = "經驗"
+
+[projectsTitle]
+other = "專案"
+
+[blogsTitle]
+other = "部落格"
+
+[viewAll]
+other = "查看全部"
+
+[localTimeLabel]
+other = "當地時間："
+
+[menuTitle]
+other = "目錄"
+
+[learnMore]
+other = "了解更多"
+
+[builtUsing]
+other = "使用技術構建"
+
+[takeALookAtMy]
+other = "看看我的"

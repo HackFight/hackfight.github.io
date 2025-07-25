@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HackFight.dev</title>
+    <link>http://localhost:1313/fr/</link>
+    <description>Recent content on HackFight.dev</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 25 Jul 2025 15:27:04 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/fr/contact/</link>
+      <pubDate>Fri, 25 Jul 2025 15:27:04 +0200</pubDate>
+      <guid>http://localhost:1313/fr/contact/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Mail:&lt;/strong&gt; &lt;a href=&#34;mailto:hackfightowo@hackfight.dev&#34;&gt;hackfightowo@hackfight.dev&lt;/a&gt;&lt;br&gt;&#xA;&lt;strong&gt;Discord:&lt;/strong&gt; hackfight&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>À Propos</title>
+      <link>http://localhost:1313/fr/about/</link>
+      <pubDate>Fri, 25 Jul 2025 15:24:47 +0200</pubDate>
+      <guid>http://localhost:1313/fr/about/</guid>
+      <description>&lt;p&gt;Salut! Je suis Hackfight, bilingue, j&amp;rsquo;ai 18 ans et je suis un gamedev suisse autodidacte.&lt;/p&gt;&#xA;&lt;p&gt;J&amp;rsquo;ai commencé à apprendre à coder quand j&amp;rsquo;avais 11 ans et je vais bientot étudier à l&amp;rsquo;&lt;a href=&#34;https://www.epfl.ch/en/&#34;&gt;EPFL&lt;/a&gt;. &lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;strong&gt;Développement de jeux vidéos:&lt;/strong&gt; &lt;br&gt;&#xA;Les jeux vidéos étant mon interet principal, c&amp;rsquo;est le domaine dans lequel j&amp;rsquo;ai le plus d&amp;rsquo;expertise. J&amp;rsquo;utilise principalement Unity pour mes projets mais j&amp;rsquo;ai eu utilisé GameMakerStudio et Godot par le passé. Récemment, je m&amp;rsquo;intéresse églament dans la création de jeux vidéos à partir de rien en C++ avec différents API de graphismes. Pour voir mes jeux ils sont sur &lt;a href=&#34;https://hackfight.itch.io&#34;&gt;Itch.io&lt;/a&gt;. J&amp;rsquo;ai également fait des jeux VR mais aucun n&amp;rsquo;est accessible publiquement actuellement. &lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;strong&gt;Travail d&amp;rsquo;équipe:&lt;/strong&gt; &lt;br&gt;&#xA;Je pense qu&amp;rsquo;on n&amp;rsquo;avance mieux que quand on est à plusieurs. C&amp;rsquo;est pourquoi j&amp;rsquo;apprécie travailler en équipe et que je suis un des fondateurs &lt;a href=&#34;https://discord.gg/6ZXKUSGcKw&#34;&gt;SwissCommunities&lt;/a&gt; qui est une communauté centrée autour de la Suisse romande sur internet. J&amp;rsquo;ai aussi participé a des événements comme la &lt;a href=&#34;https://gameacademy.ch/SGA/&#34;&gt;Swiss Game Academy&lt;/a&gt; qui est une game jam en présentiel. &lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;strong&gt;Autres:&lt;/strong&gt;&lt;br&gt;&#xA;C&amp;rsquo;est pas tout: &lt;br&gt;&#xA;J&amp;rsquo;ai commencé à apprendre avec Minecraft, Ice qui fait que je peut coder des datapacks, des plugins, des mods et des shaders. La combinaison SwissCommunities/Minecraft m&amp;rsquo;a permis d&amp;rsquo;apprendre les bases des serveurs, panels et protocoles internet. Je me suis aussi intéréssé un peu au dévleoppement de sites web et à la structure des ordinateurs (J&amp;rsquo;ai construit un ALU 8-bit dans Minecraft). J&amp;rsquo;ai également plein de réseaux sociaux mais que je n&amp;rsquo;utilise que très peu. &lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;strong&gt;Hobbys:&lt;/strong&gt; &lt;br&gt;&#xA;En plus du code je suis fan de tout les jeux d&amp;rsquo;automatisation, indés ou de parkour. &lt;br&gt;&#xA;Pour pousser le bouchon plus loin, j&amp;rsquo;adore et j&amp;rsquo;ai appris la physique et la biologie en cours tout en faisant une année à l&amp;rsquo;étranger. &lt;br&gt;&#xA;J&amp;rsquo;adore m&amp;rsquo;occuper de plein d&amp;rsquo;animaux dlifférents mais surtout les plus bizarres. J&amp;rsquo;ai des phasmes, des axolotls, un blob et mon chat ₍^. .^₎⟆. Je suis relativement actif dans le fandom furry où j&amp;rsquo;ai remis à jours mes talents en éléctronique pour me faire une tête de protogen. :3 &lt;br&gt;&#xA;Autrement j&amp;rsquo;adore regarder des films, des séries, des animés et écouter de la musique. Je fais des petits projets de cosplay de temps en temps. &lt;br&gt;&#xA;Quittons les stereotypes de geek et parlons de stereotypes suisses. J&amp;rsquo;adore le chocolat, les montagnes et la neige. J&amp;rsquo;ai fait beaucoup de sports différents dans les montagnes, sur l&amp;rsquo;eau et sous l&amp;rsquo;eau.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
