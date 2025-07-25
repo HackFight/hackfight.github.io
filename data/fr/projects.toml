@@ -17,14 +17,14 @@ title = "Create: Switzerland"
 description = "Un mod Minecraft qui rajoute des trucs Suisses."
 tech = "Minecraft, Java"
 image = "/images/projects/create-switzerland.png"
-link = "https://github.com/HackFight/Fabric_create-switzerland_1.20.1"
+link = "https://modrinth.com/mod/create-switzerland"
 
 [[projects]]
 title = "Back To Basics"
 description = "Un shader Minecraft qui recrée les visuels de la PS1."
 tech = "Minecraft, GLSL"
 image = "/images/projects/back-to-basics.png"
-link = "https://github.com/HackFight/Back-To-Basics"
+link = "https://modrinth.com/shader/btb-back-to-basics"
 
 [[projects]]
 title = "GridWorldSystem"
