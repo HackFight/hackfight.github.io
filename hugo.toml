@@ -1,5 +1,5 @@
-baseURL = "https://hackfight.dev"
-languageCode = 'fr-CH'
+baseURL = "https://www.hackfight.dev"
+languageCode = 'fr'
 title = 'HackFight.dev'
 theme = 'hugo-noir'
 
@@ -12,7 +12,7 @@ canonifyURLs = true
 # Ensure you have corresponding content directories (e.g., content/en, content/es)
 # and i18n files in themes/hugo-noir/i18n/ for each language.
 # Also, create data files like data/en/author.yaml, data/es/author.yaml for language-specific author info.
-defaultContentLanguage = "en"
+defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
 
 [languages]
