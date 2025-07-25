@@ -2,93 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/blogs/</loc>
+    <loc>https://hackfight.dev/en/blogs/</loc>
     <lastmod>2025-07-25T15:28:54+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/blogs/"
+                href="https://hackfight.dev/fr/blogs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/blogs/"
+                href="https://hackfight.dev/en/blogs/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://hackfight.dev/en/</loc>
     <lastmod>2025-07-25T15:28:49+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/"
+                href="https://hackfight.dev/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://hackfight.dev/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/projects/</loc>
+    <loc>https://hackfight.dev/en/projects/</loc>
     <lastmod>2025-07-25T15:27:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/projects/"
+                href="https://hackfight.dev/fr/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/projects/"
+                href="https://hackfight.dev/en/projects/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/contact/</loc>
+    <loc>https://hackfight.dev/en/contact/</loc>
     <lastmod>2025-07-25T15:27:04+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/contact/"
+                href="https://hackfight.dev/fr/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/contact/"
+                href="https://hackfight.dev/en/contact/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
+    <loc>https://hackfight.dev/en/about/</loc>
     <lastmod>2025-07-25T15:24:47+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/about/"
+                href="https://hackfight.dev/fr/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/about/"
+                href="https://hackfight.dev/en/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://hackfight.dev/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/categories/"
+                href="https://hackfight.dev/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://hackfight.dev/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://hackfight.dev/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/tags/"
+                href="https://hackfight.dev/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://hackfight.dev/en/tags/"
                 />
   </url>
 </urlset>

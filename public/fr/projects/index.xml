@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projets on HackFight.dev</title>
-    <link>http://localhost:1313/fr/projects/</link>
+    <link>https://hackfight.dev/fr/projects/</link>
     <description>Recent content in Projets on HackFight.dev</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/fr/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hackfight.dev/fr/projects/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
