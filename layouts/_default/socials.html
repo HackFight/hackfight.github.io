@@ -1,0 +1,203 @@
+{{ define "main" }}
+<div class="max-w-4xl mx-auto px-4 py-12">
+    <h1 class="text-5xl font-bold mb-6 text-text-primary-light dark:text-text-primary-dark">{{ .Title }}</h1>
+    <div class="bg-bg-primary-light dark:bg-bg-secondary-dark p-8 rounded-lg border border-border-primary-light dark:border-border-primary-dark">
+        <div class="prose prose-invert prose-lg max-w-none">
+            <div class="text-text-secondary-light dark:text-text-secondary-dark text-lg mb-8">
+                {{ .Content }}
+            </div>
+            
+            <div class="border border-border-primary-light dark:border-border-primary-dark rounded-lg p-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+
+                    <!-- GitHub -->
+                    <a href="{{ .Site.Params.github }}" target="_blank" class="contact-link flex items-center gap-4 p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark transition-all duration-300">
+                        <svg class="w-7 h-7 text-text-secondary-light dark:text-text-secondary-dark shrink-0" fill="currentColor" stroke="none" viewBox="0 0 24 24">
+                            <path d="M4.0744 2.9938C4.13263 1.96371 4.37869 1.51577 5.08432 1.15606C5.84357 0.768899 7.04106 0.949072 8.45014 1.66261C9.05706 1.97009 9.11886 1.97635 10.1825 1.83998C11.5963 1.65865 13.4164 1.65929 14.7213 1.84164C15.7081 1.97954 15.7729 1.97265 16.3813 1.66453C18.3814 0.651679 19.9605 0.71795 20.5323 1.8387C20.8177 2.39812 20.8707 3.84971 20.6494 5.04695C20.5267 5.71069 20.5397 5.79356 20.8353 6.22912C22.915 9.29385 21.4165 14.2616 17.8528 16.1155C17.5801 16.2574 17.3503 16.3452 17.163 16.4167C16.5879 16.6363 16.4133 16.703 16.6247 17.7138C16.7265 18.2 16.8491 19.4088 16.8973 20.4002C16.9844 22.1922 16.9831 22.2047 16.6688 22.5703C16.241 23.0676 15.6244 23.076 15.2066 22.5902C14.9341 22.2734 14.9075 22.1238 14.9075 20.9015C14.9075 19.0952 14.7095 17.8946 14.2417 16.8658C13.6854 15.6415 14.0978 15.185 15.37 14.9114C17.1383 14.531 18.5194 13.4397 19.2892 11.8146C20.0211 10.2698 20.1314 8.13501 18.8082 6.83668C18.4319 6.3895 18.4057 5.98446 18.6744 4.76309C18.7748 4.3066 18.859 3.71768 18.8615 3.45425C18.8653 3.03823 18.8274 2.97541 18.5719 2.97541C18.4102 2.97541 17.7924 3.21062 17.1992 3.49805L16.2524 3.95695C16.1663 3.99866 16.07 4.0147 15.975 4.0038C13.5675 3.72746 11.2799 3.72319 8.86062 4.00488C8.76526 4.01598 8.66853 3.99994 8.58215 3.95802L7.63585 3.49882C7.04259 3.21087 6.42482 2.97541 6.26317 2.97541C5.88941 2.97541 5.88379 3.25135 6.22447 4.89078C6.43258 5.89203 6.57262 6.11513 5.97101 6.91572C5.06925 8.11576 4.844 9.60592 5.32757 11.1716C5.93704 13.1446 7.4295 14.4775 9.52773 14.9222C10.7926 15.1903 11.1232 15.5401 10.6402 16.9905C10.26 18.1319 10.0196 18.4261 9.46707 18.4261C8.72365 18.4261 8.25796 17.7821 8.51424 17.1082C8.62712 16.8112 8.59354 16.7795 7.89711 16.5255C5.77117 15.7504 4.14514 14.0131 3.40172 11.7223C2.82711 9.95184 3.07994 7.64739 4.00175 6.25453C4.31561 5.78028 4.32047 5.74006 4.174 4.83217C4.09113 4.31822 4.04631 3.49103 4.0744 2.9938Z"/>
+                            <path d="M3.33203 15.9454C3.02568 15.4859 2.40481 15.3617 1.94528 15.6681C1.48576 15.9744 1.36158 16.5953 1.66793 17.0548C1.8941 17.3941 2.16467 17.6728 2.39444 17.9025C2.4368 17.9449 2.47796 17.9858 2.51815 18.0257C2.71062 18.2169 2.88056 18.3857 3.05124 18.5861C3.42875 19.0292 3.80536 19.626 4.0194 20.6962C4.11474 21.1729 4.45739 21.4297 4.64725 21.5419C4.85315 21.6635 5.07812 21.7352 5.26325 21.7819C5.64196 21.8774 6.10169 21.927 6.53799 21.9559C7.01695 21.9877 7.53592 21.998 7.99999 22.0008C8.00033 22.5527 8.44791 23.0001 8.99998 23.0001C9.55227 23.0001 9.99998 22.5524 9.99998 22.0001V21.0001C9.99998 20.4478 9.55227 20.0001 8.99998 20.0001C8.90571 20.0001 8.80372 20.0004 8.69569 20.0008C8.10883 20.0026 7.34388 20.0049 6.67018 19.9603C6.34531 19.9388 6.07825 19.9083 5.88241 19.871C5.58083 18.6871 5.09362 17.8994 4.57373 17.2891C4.34391 17.0194 4.10593 16.7834 3.91236 16.5914C3.87612 16.5555 3.84144 16.5211 3.80865 16.4883C3.5853 16.265 3.4392 16.1062 3.33203 15.9454Z"/>
+                        </svg>
+                        <div class="min-w-0">
+                            <div class="text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 truncate">GitHub</div>
+                            <div class="text-sm text-text-tertiary-light dark:text-text-tertiary-dark truncate">{{ .Site.Params.github_username }}</div>
+                        </div>
+                    </a>
+
+                    <!-- Itch.io -->
+                    <a href="{{ .Site.Params.itchio }}" target="_blank" class="contact-link flex items-center gap-4 p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark transition-all duration-300">
+                        <svg class="w-7 h-7 text-text-secondary-light dark:text-text-secondary-dark shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path d="M14 7H16C18.7614 7 21 9.23858 21 12C21 14.7614 18.7614 17 16 17H14M10 7H8C5.23858 7 3 9.23858 3 12C3 14.7614 5.23858 17 8 17H10M8 12H16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <div class="min-w-0">
+                            <div class="text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 truncate">Itch.io</div>
+                            <div class="text-sm text-text-tertiary-light dark:text-text-tertiary-dark truncate">{{ .Site.Params.itchio_username }}</div>
+                        </div>
+                    </a>
+
+                    <!-- YouTube -->
+                    <a href="{{ .Site.Params.youtube }}" target="_blank" class="contact-link flex items-center gap-4 p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark transition-all duration-300">
+                        <svg class="w-7 h-7 text-text-secondary-light dark:text-text-secondary-dark shrink-0" fill="currentColor" stroke="none" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.49614 7.13176C9.18664 6.9549 8.80639 6.95617 8.49807 7.13509C8.18976 7.31401 8 7.64353 8 8V16C8 16.3565 8.18976 16.686 8.49807 16.8649C8.80639 17.0438 9.18664 17.0451 9.49614 16.8682L16.4961 12.8682C16.8077 12.6902 17 12.3589 17 12C17 11.6411 16.8077 11.3098 16.4961 11.1318L9.49614 7.13176ZM13.9844 12L10 14.2768V9.72318L13.9844 12Z"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 8.25027 0 6.3754 0.954915 5.06107C1.26331 4.6366 1.6366 4.26331 2.06107 3.95491C3.3754 3 5.25027 3 9 3H15C18.7497 3 20.6246 3 21.9389 3.95491C22.3634 4.26331 22.7367 4.6366 23.0451 5.06107C24 6.3754 24 8.25027 24 12C24 15.7497 24 17.6246 23.0451 18.9389C22.7367 19.3634 22.3634 19.7367 21.9389 20.0451C20.6246 21 18.7497 21 15 21H9C5.25027 21 3.3754 21 2.06107 20.0451C1.6366 19.7367 1.26331 19.3634 0.954915 18.9389C0 17.6246 0 15.7497 0 12ZM9 5H15C16.9194 5 18.1983 5.00275 19.1673 5.10773C20.0989 5.20866 20.504 5.38448 20.7634 5.57295C21.018 5.75799 21.242 5.98196 21.4271 6.23664C21.6155 6.49605 21.7913 6.90113 21.8923 7.83269C21.9973 8.80167 22 10.0806 22 12C22 13.9194 21.9973 15.1983 21.8923 16.1673C21.7913 17.0989 21.6155 17.504 21.4271 17.7634C21.242 18.018 21.018 18.242 20.7634 18.4271C20.504 18.6155 20.0989 18.7913 19.1673 18.8923C18.1983 18.9973 16.9194 19 15 19H9C7.08058 19 5.80167 18.9973 4.83269 18.8923C3.90113 18.7913 3.49605 18.6155 3.23664 18.4271C2.98196 18.242 2.75799 18.018 2.57295 17.7634C2.38448 17.504 2.20866 17.0989 2.10773 16.1673C2.00275 15.1983 2 13.9194 2 12C2 10.0806 2.00275 8.80167 2.10773 7.83269C2.20866 6.90113 2.38448 6.49605 2.57295 6.23664C2.75799 5.98196 2.98196 5.75799 3.23664 5.57295C3.49605 5.38448 3.90113 5.20866 4.83269 5.10773C5.80167 5.00275 7.08058 5 9 5Z"/>
+                        </svg>
+                        <div class="min-w-0">
+                            <div class="text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 truncate">YouTube</div>
+                            <div class="text-sm text-text-tertiary-light dark:text-text-tertiary-dark truncate">@{{ .Site.Params.youtube_username }}</div>
+                        </div>
+                    </a>
+
+                    <!-- Bluesky -->
+                    <a href="{{ .Site.Params.bluesky }}" target="_blank" class="contact-link flex items-center gap-4 p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark transition-all duration-300">
+                        <svg class="w-7 h-7 text-text-secondary-light dark:text-text-secondary-dark shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path d="M14 7H16C18.7614 7 21 9.23858 21 12C21 14.7614 18.7614 17 16 17H14M10 7H8C5.23858 7 3 9.23858 3 12C3 14.7614 5.23858 17 8 17H10M8 12H16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <div class="min-w-0">
+                            <div class="text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 truncate">Bluesky</div>
+                            <div class="text-sm text-text-tertiary-light dark:text-text-tertiary-dark truncate">@{{ .Site.Params.bluesky_username }}</div>
+                        </div>
+                    </a>
+
+                    <!-- Modrinth -->
+                    <a href="{{ .Site.Params.modrinth }}" target="_blank" class="contact-link flex items-center gap-4 p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark transition-all duration-300">
+                        <svg class="w-7 h-7 text-text-secondary-light dark:text-text-secondary-dark shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path d="M14 7H16C18.7614 7 21 9.23858 21 12C21 14.7614 18.7614 17 16 17H14M10 7H8C5.23858 7 3 9.23858 3 12C3 14.7614 5.23858 17 8 17H10M8 12H16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <div class="min-w-0">
+                            <div class="text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 truncate">Modrinth</div>
+                            <div class="text-sm text-text-tertiary-light dark:text-text-tertiary-dark truncate">{{ .Site.Params.modrinth_username }}</div>
+                        </div>
+                    </a>
+
+                     <!-- Planet Minecraft -->
+                    <a href="{{ .Site.Params.planet_minecraft }}" target="_blank" class="contact-link flex items-center gap-4 p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark transition-all duration-300">
+                        <svg class="w-7 h-7 text-text-secondary-light dark:text-text-secondary-dark shrink-0" fill="currentColor" stroke="none" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23ZM3.11735 13.414C3.0446 12.9533 3.00683 12.4811 3.00683 12C3.00683 7.92975 5.71082 4.49105 9.42045 3.38225C9.26876 4.1948 8.92119 4.82883 8.56392 5.48056C8.49846 5.59998 8.43262 5.72008 8.36765 5.84191C8.11741 6.3111 7.8125 6.92968 7.8125 7.63281C7.8125 8.40645 8.16953 9.08375 8.79289 9.70711C9.47791 10.3921 9.61869 10.9399 9.77777 11.5589C9.80021 11.6462 9.823 11.7349 9.84774 11.8256C9.9509 12.2039 10.1151 12.7168 10.5507 13.1524C10.9866 13.5883 11.5772 13.8352 12.3039 13.9806C14.5643 14.4327 15.27 15.276 15.6056 15.9472C15.6352 16.0065 15.6909 16.2077 15.7213 16.6337C15.7495 17.0287 15.75 17.4906 15.75 18V18.0209C15.75 18.5058 15.75 19.0355 15.7838 19.5087C15.7976 19.702 15.8183 19.9137 15.855 20.1274C14.9439 20.5603 13.9484 20.8445 12.9 20.9487C12.8003 20.4939 12.6154 20.0705 12.3 19.65C11.8228 19.0138 11.0709 18.4282 10.1 17.7C9.84017 17.5051 9.76955 17.3242 9.74598 17.1091C9.71395 16.8166 9.7722 16.4839 9.86464 15.965L9.87042 15.9326C9.94741 15.5014 10.0634 14.8519 9.91598 14.2343C9.73457 13.4741 9.21019 12.9071 8.37139 12.5715C6.79661 11.9416 5.08866 12.472 3.95556 12.9878C3.65093 13.1265 3.36866 13.2729 3.11735 13.414ZM3.67505 15.4081C4.86529 18.3124 7.53119 20.4558 10.7402 20.9056C10.4744 20.5227 9.98152 20.1111 8.9 19.3C8.15983 18.7449 7.83633 18.0431 7.75787 17.3268C7.69302 16.7348 7.80144 16.1354 7.87812 15.7115L7.89565 15.6142C7.98731 15.0997 8.00826 14.8563 7.9706 14.6985L7.96922 14.6918C7.96193 14.6543 7.94243 14.554 7.6286 14.4285C6.85633 14.1196 5.81428 14.3392 4.78415 14.8081C4.35219 15.0047 3.96855 15.2241 3.67505 15.4081ZM12 3.00683C11.8255 3.00683 11.6522 3.0118 11.4802 3.0216C11.3622 4.56477 10.7424 5.68086 10.3067 6.46524C10.2441 6.57794 10.1853 6.6838 10.1324 6.78309C9.88258 7.2514 9.8125 7.47657 9.8125 7.63281C9.8125 7.71855 9.83047 7.91625 10.2071 8.29289C11.2928 9.37855 11.5515 10.4075 11.7187 11.0724C11.7391 11.1537 11.7582 11.2295 11.7773 11.2994C11.8616 11.6086 11.9162 11.6895 11.9649 11.7382C12.0134 11.7867 12.1728 11.9148 12.6961 12.0194C15.4357 12.5673 16.73 13.724 17.3944 15.0528C17.6148 15.4935 17.6841 16.0423 17.7162 16.4913C17.75 16.9645 17.75 17.4942 17.75 17.9792V18C17.75 18.3238 17.7502 18.6284 17.7576 18.9088C19.735 17.2591 20.9932 14.7765 20.9932 12C20.9932 11.8662 20.9902 11.733 20.9845 11.6006C20.2535 11.6212 19.6814 11.3344 19.2306 11.1084C18.5139 10.7494 17.8137 10.5 17 10.5C16.2483 10.5 15.6108 10.35 15.102 9.98256C14.5938 9.61549 14.3483 9.12594 14.1965 8.74639C14.11 8.52998 14.0455 8.35024 13.991 8.19815C13.8293 7.74679 13.7545 7.5382 13.4453 7.33205C12.9178 6.98037 12.5083 6.49222 12.4492 5.82227C12.3986 5.24927 12.6363 4.74129 12.7931 4.42778C12.8619 4.29017 12.9292 4.16168 12.9929 4.03999C13.1683 3.70495 13.3183 3.41848 13.4087 3.11652C12.9497 3.04432 12.4792 3.00683 12 3.00683ZM20.6571 9.55597C20.5134 9.50863 20.3335 9.42369 20.0722 9.29307L20.0672 9.29057C19.4072 8.96054 18.4861 8.5 17 8.5C16.5017 8.5 16.3267 8.4 16.273 8.36119C16.2187 8.32201 16.1517 8.24906 16.0535 8.00361C16.03 7.94484 16.0042 7.8672 15.9737 7.77553C15.8013 7.25678 15.4779 6.28341 14.5547 5.66795C14.408 5.57017 14.5089 5.46824 14.5819 5.32222C14.6169 5.25224 14.6606 5.17129 14.7098 5.08013C14.8964 4.73435 15.1623 4.24166 15.333 3.64469C17.9082 4.67287 19.8967 6.8571 20.6571 9.55597Z"/>
+                        </svg>
+                        <div class="min-w-0">
+                            <div class="text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 truncate">Planet Minecraft</div>
+                            <div class="text-sm text-text-tertiary-light dark:text-text-tertiary-dark truncate">{{ .Site.Params.planet_minecraft_username }}</div>
+                        </div>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a href="{{ .Site.Params.instagram }}" target="_blank" class="contact-link flex items-center gap-4 p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark transition-all duration-300">
+                        <svg class="w-7 h-7 text-text-secondary-light dark:text-text-secondary-dark shrink-0" fill="currentColor" stroke="none" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"/>
+                            <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"/>
+                        </svg>
+                        <div class="min-w-0">
+                            <div class="text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 truncate">Instagram</div>
+                            <div class="text-sm text-text-tertiary-light dark:text-text-tertiary-dark truncate">@{{ .Site.Params.instagram_username }}</div>
+                        </div>
+                    </a>
+
+                    <!-- TikTok -->
+                    <a href="{{ .Site.Params.tiktok }}" target="_blank" class="contact-link flex items-center gap-4 p-4 rounded-lg bg-bg-primary-light dark:bg-bg-secondary-dark transition-all duration-300">
+                        <svg class="w-7 h-7 text-text-secondary-light dark:text-text-secondary-dark shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path id="primary" d="M21,7H20a4,4,0,0,1-4-4H12V14.5a2.5,2.5,0,1,1-4-2V8.18a6.5,6.5,0,1,0,8,6.32V9.92A8,8,0,0,0,20,11h1Z"  stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        </svg>
+                        <div class="min-w-0">
+                            <div class="text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 truncate">TikTok</div>
+                            <div class="text-sm text-text-tertiary-light dark:text-text-tertiary-dark truncate">@{{ .Site.Params.tiktok_username }}</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .prose {
+        color: #4b5563; /* text-secondary-light */
+    }
+    html.dark .prose {
+        color: #9ca3af; /* text-secondary-dark */
+    }
+    .prose p {
+        color: #4b5563; /* text-secondary-light */
+        margin-bottom: 1.5rem; /* mb-6 */
+        line-height: 1.9;
+    }
+    html.dark .prose p {
+        color: #9ca3af; /* text-secondary-dark */
+    }
+    
+    .contact-link {
+        position: relative;
+        overflow: hidden;
+        border: 1px solid #d1d5db; /* border-primary-light */
+    }
+    html.dark .contact-link {
+        border: 1px solid #4b5563; /* border-primary-dark */
+    }
+    
+    .contact-link:hover {
+        border-color: #9ca3af; /* border-secondary-light */
+        transform: translateY(-2px);
+    }
+    html.dark .contact-link:hover {
+        border-color: #6b7280; /* border-secondary-dark */
+    }
+    
+    @media (max-width: 768px) {
+        .contact-link {
+            width: 100%;
+        }
+    }
+</style>
+
+<style>
+/* Toaster styles */
+.toaster {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--toaster-bg, #333); 
+    color: var(--toaster-text, white); 
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, background-color 0.3s ease, color 0.3s ease;
+}
+
+html.dark .toaster {
+    --toaster-bg: #e5e7eb; 
+    --toaster-text: #1f2937; 
+}
+
+.toaster.show {
+    opacity: 1;
+}
+</style>
+
+<script>
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(function() {
+        showToaster('Discord username copied to clipboard!');
+    }, function(err) {
+        showToaster('Failed to copy username.');
+        console.error('Could not copy text: ', err);
+    });
+}
+
+function showToaster(message) {
+    const toaster = document.createElement('div');
+    toaster.className = 'toaster';
+    toaster.textContent = message;
+    document.body.appendChild(toaster);
+    setTimeout(() => {
+        toaster.classList.add('show');
+    }, 10); // Delay to allow CSS transition
+    setTimeout(() => {
+        toaster.classList.remove('show');
+        setTimeout(() => {
+            document.body.removeChild(toaster);
+        }, 500); // Delay to allow fade out transition
+    }, 3000); // Show toaster for 3 seconds
+}
+</script>
+
+{{ end }} 

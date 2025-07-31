@@ -39,9 +39,13 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
 #        pageRef = "/blogs" # Assumes a section named 'blogs'
 #        weight = 4
       [[languages.en.menu.main]]
+        name = "Socials"
+        pageRef = "/socials"
+        weight = 5
+      [[languages.en.menu.main]]
         name = "Contact"
         pageRef = "/contact"
-        weight = 3
+        weight = 6
 
   [languages.fr]
     languageName = "Français"
@@ -66,9 +70,13 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
 #        pageRef = "/blogs" # Assumes a section named 'blogs'
 #        weight = 4
       [[languages.fr.menu.main]]
+        name = "Réseaux"
+        pageRef = "/socials"
+        weight = 5
+      [[languages.fr.menu.main]]
         name = "Contact"
         pageRef = "/contact"
-        weight = 5
+        weight = 6
 
 # Taxonomy configuration
 [taxonomies]
@@ -80,14 +88,35 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
   # This is used by the theme for the author name in the footer, social links, etc.
   name = "HackFight"
   profile_image = "/images/profile_placeholder.jpg" # Place in your site's static/images/ directory
+
   # Social and contact information
   email = "hackfightowo@hackfight.dev"
+
   github = "https://github.com/hackfight"
-  github_username = "hackfight"
-  # Add other social links as needed by the theme or your content
-  discord = "hackfight"
+  github_username = "HackFight"
+
+  discord = "HackFight"
+
+  youtube = "https://www.youtube.com/@HackFight"
+  youtube_username = "HackFight"
+
+  bluesky = "https://bsky.app/profile/hackfight.bsky.social"
+  bluesky_username = "hackfight.bsky.social"
+
   instagram = "https://instagram.com/haccfight"
+  instagram_username = "HaccFight"
+  
   tiktok = "https://www.tiktok.com/@haccfight"
+  tiktok_username = "HaccFight"
+
+  modrinth = "https://modrinth.com/user/HackFight"
+  modrinth_username = "HackFight"
+
+  planet_minecraft = "https://www.planetminecraft.com/member/hackfight"
+  planet_minecraft_username = "HackFight"
+
+  itchio = "https://hackfight.itch.io"
+  itchio_username = "HackFight"
 
 # Main menu (used as a fallback if language-specific menus are not fully defined or if not using multilingual features)
 # For multilingual sites, it's generally better to define menus within each language block as shown above.
@@ -109,6 +138,10 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
 #    pageRef = "/blogs"
 #    weight = 4
   [[menu.main]]
-    name = "Contact Me" # Note: "Contact" is used in language-specific menus above for consistency
+    name = "Socials" # Note: "Socials" is used in language-specific menus above for consistency
+    pageRef = "/socials"
+    weight = 5
+  [[menu.main]]
+    name = "Contact" # Note: "Contact" is used in language-specific menus above for consistency
     pageRef = "/contact"
-    weight = 5 
+    weight = 6 
