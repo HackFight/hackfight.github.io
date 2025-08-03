@@ -1,6 +1,6 @@
 [[projects]]
 title = "Core Engine"
-description = "Le premier essau d'un \"game engine\" utilisable en C++."
+description = "Le premier essai d'un \"game engine\" utilisable en C++."
 tech = "C++, OpenGL"
 image = "/images/projects/core-engine.png"
 link = "https://github.com/hackfight/core-engine"
