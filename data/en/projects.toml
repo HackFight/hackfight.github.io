@@ -1,4 +1,11 @@
 [[projects]]
+title = "Core Engine"
+description = "First attempt of a usable \"game engine\" in C++"
+tech = "C++, OpenGL"
+image = "/images/projects/core-engine.png"
+link = "https://github.com/hackfight/core-engine"
+
+[[projects]]
 title = "Vulkan Renderer"
 description = "A C++ project to learn how to use the Vulkan API."
 tech = "C++, Vulkan"
