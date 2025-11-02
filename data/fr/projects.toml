@@ -1,4 +1,18 @@
 [[projects]]
+title = "Back To Basics"
+description = "Un shader Minecraft qui recrée les visuels de la PS1."
+tech = "Minecraft, GLSL"
+image = "/images/projects/back-to-basics.png"
+link = "https://modrinth.com/shader/btb-back-to-basics"
+
+[[projects]]
+title = "Graphics lab"
+description = "Un projet C++ pour apprendre à utiliser l'API d'OpenGL."
+tech = "C++, OpenGL"
+image = "/images/projects/graphics-lab.png"
+link = "https://github.com/hackfight/Graphics-lab"
+
+[[projects]]
 title = "Core Engine"
 description = "Le premier essai d'un \"game engine\" utilisable en C++."
 tech = "C++, OpenGL"
@@ -13,25 +27,11 @@ image = "/images/projects/vulkan-renderer.png"
 link = "https://github.com/hackfight/vulkan-renderer"
 
 [[projects]]
-title = "Graphics lab"
-description = "Un projet C++ pour apprendre à utiliser l'API d'OpenGL."
-tech = "C++, OpenGL"
-image = "/images/projects/graphics-lab.png"
-link = "https://github.com/hackfight/Graphics-lab"
-
-[[projects]]
 title = "Create: Switzerland"
 description = "Un mod Minecraft qui rajoute des trucs Suisses."
 tech = "Minecraft, Java"
 image = "/images/projects/create-switzerland.png"
 link = "https://modrinth.com/mod/create-switzerland"
-
-[[projects]]
-title = "Back To Basics"
-description = "Un shader Minecraft qui recrée les visuels de la PS1."
-tech = "Minecraft, GLSL"
-image = "/images/projects/back-to-basics.png"
-link = "https://modrinth.com/shader/btb-back-to-basics"
 
 [[projects]]
 title = "GridWorldSystem"
