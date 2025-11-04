@@ -1,4 +1,11 @@
 [[projects]]
+title = "Demo3D"
+description = "The goal of this project is to build a 3D engine, but fr this time."
+tech = "C++, OpenGL, CMake"
+image = "/images/projects/demo3d.png"
+link = "https://github.com/HackFight/Demo3D"
+
+[[projects]]
 title = "Back To Basics"
 description = "A Minecraft shader simulating the PS1 graphics."
 tech = "Minecraft, GLSL"
