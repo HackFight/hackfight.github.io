@@ -33,7 +33,7 @@ Even though I don't post much stuff, with time I have ventured through much of t
 **Entertainement:**
 [TikTok](https://www.tiktok.com/@haccfight), [Instagram](https://www.instagram.com/haccfight/), [YouTube](https://youtube.com/@hackfight), [BlueSky](https://bsky.app/profile/hackfight.bsky.social) \
 **Contact:**
-[@hackfight on Discord](https://swisscommunities.ch), [mail](mailto:hackfightowo@hackfight.dev) \
+[Discord](https://swisscommunities.ch), [mail](mailto:hackfightowo@hackfight.dev) \
 \
  **Projects:** \
  My personal projects usually fall in a big range of tech stuff, but the projects I post publicly are usually around video games and visuals. You can find most of my projects on my [GitHub](https://github.com/HackFight), my [Modrinth](https://modrinth.com/user/HackFight) and my [Itch.io](https://hackfight.itch.io). You should also go check my very good friend, [PadjokeJ's, website](https://padjokej.dev/) as we work on a lot of project together. \
@@ -41,12 +41,12 @@ Even though I don't post much stuff, with time I have ventured through much of t
  Here is a list of my favorite projects:
  > **[Demo3D](https://github.com/HackFight/Demo3D)**
  > A 3D "game engine" coded in C++ with OpenGL that simulates physics with XPBD. \
-\
+
  > **[\[BTB\] Back To Basics](https://modrinth.com/shader/btb-back-to-basics)**
  > A Minecraft shader to get PS1 visuals. \
-\
+
  > **[Create: Switzerland](https://modrinth.com/mod/create-switzerland)**
  > A Create mod addon that adds Swiss stuff. \
-\
+ 
  > **[Ore Crops](https://www.planetminecraft.com/data-pack/ore-crops/)**
- > A Minecraft datapacks that adds ore crops. \
+ > A Minecraft datapacks that adds ore crops. 
