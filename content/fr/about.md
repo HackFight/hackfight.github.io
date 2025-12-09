@@ -1,8 +1,9 @@
-+++
-date = '2025-07-25T15:24:47+02:00'
-draft = false
-title = 'À Propos'
-+++
+---
+title: "A propos"
+date: 2025-07-25T15:24:47+02:00
+draft: false
+layout: "about"
+---
 
 Salut! Je suis Hackfight, bilingue, j'ai 18 ans et je suis une gamedev suisse autodidacte.
 
@@ -23,7 +24,7 @@ En plus du code je suis fan de tout les jeux d'automatisation, indés ou de park
 Pour pousser le bouchon plus loin, j'adore et j'ai appris la physique et la biologie en cours tout en faisant une année à l'étranger. \
 J'adore m'occuper de plein d'animaux différents mais surtout les plus bizarres. J'ai des phasmes, des axolotls, un blob et mon chat ₍^. .^₎⟆. Je suis relativement active dans le fandom furry où j'ai remis à jours mes talents en éléctronique pour me faire une tête de protogen. :3 \
 Autrement j'adore regarder des films, des séries, des animés et écouter de la musique. Je fais des petits projets de cosplay de temps en temps. \
-Quittons les stereotypes de geek et parlons de stereotypes suisses. J'adore le chocolat, les montagnes et la neige. J'ai fait beaucoup de sports différents dans les montagnes, sur l'eau et sous l'eau.
+Quittons les stereotypes de geek et parlons de stereotypes suisses. J'adore le chocolat, les montagnes et la neige. J'ai fait beaucoup de sports différents dans les montagnes, sur l'eau et sous l'eau. \
 \
 **Présence en ligne:** \
 Even though I don't post much stuff, with time I have ventured through much of the internet, so here are lists of where you can find me: \
