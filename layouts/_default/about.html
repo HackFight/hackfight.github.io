@@ -5,7 +5,7 @@
     <div class="flex flex-col gap-8">
         <div class="flex-grow">
             <div class="bg-bg-primary-light dark:bg-bg-secondary-dark p-8 rounded-lg mb-8 border border-border-primary-light dark:border-border-primary-dark">
-                <div class="prose animated-link prose-invert prose-xl max-w-none">
+                <div class="prose prose-invert prose-xl max-w-none">
                     <div>
                         {{ .Content }}
                     </div>
@@ -89,6 +89,9 @@
         color: #4b5563; /* text-secondary-light */
         margin-bottom: 1.5rem; /* Corresponds to mb-6 */
         line-height: 1.9;
+    }
+    .prose a {
+        text-decoration: underline;
     }
     html.dark .prose p {
         color: #9ca3af; /* text-secondary-dark */
