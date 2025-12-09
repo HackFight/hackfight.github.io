@@ -24,3 +24,21 @@ Pour pousser le bouchon plus loin, j'adore et j'ai appris la physique et la biol
 J'adore m'occuper de plein d'animaux différents mais surtout les plus bizarres. J'ai des phasmes, des axolotls, un blob et mon chat ₍^. .^₎⟆. Je suis relativement active dans le fandom furry où j'ai remis à jours mes talents en éléctronique pour me faire une tête de protogen. :3 \
 Autrement j'adore regarder des films, des séries, des animés et écouter de la musique. Je fais des petits projets de cosplay de temps en temps. \
 Quittons les stereotypes de geek et parlons de stereotypes suisses. J'adore le chocolat, les montagnes et la neige. J'ai fait beaucoup de sports différents dans les montagnes, sur l'eau et sous l'eau.
+\
+**Présence en ligne:** \
+Even though I don't post much stuff, with time I have ventured through much of the internet, so here are lists of where you can find me: \
+**Developement:**
+[GitHub](https://github.com/HackFight), [Itch.io](https://hackfight.itch.io), [Modrinth](https://modrinth.com/user/HackFight), [Planet Minecraft](https://www.planetminecraft.com/member/hackfight) \
+**Entertainement:**
+[TikTok](https://www.tiktok.com/@haccfight), [Instagram](https://www.instagram.com/haccfight/), [YouTube](https://youtube.com/@hackfight), [BlueSky](https://bsky.app/profile/hackfight.bsky.social) \
+**Contact:**
+[Discord](https://swisscommunities.ch), [mail](mailto:hackfightowo@hackfight.dev) \
+\
+ **Projects:** \
+ My personal projects usually fall in a big range of tech stuff, but the projects I post publicly are usually around video games and visuals. You can find most of my projects on my [GitHub](https://github.com/HackFight), my [Modrinth](https://modrinth.com/user/HackFight) and my [Itch.io](https://hackfight.itch.io). You should also go check my very good friend, [PadjokeJ's, website](https://padjokej.dev/) as we work on a lot of project together. \
+ \
+ Here is a list of my favorite projects: \
+ **[Demo3D](https://github.com/HackFight/Demo3D):** A 3D "game engine" coded in C++ with OpenGL that simulates physics with XPBD. \
+ **[\[BTB\] Back To Basics](https://modrinth.com/shader/btb-back-to-basics):** A Minecraft shader to get PS1 visuals. \
+ **[Create: Switzerland](https://modrinth.com/mod/create-switzerland):** A Create mod addon that adds Swiss stuff. \
+ **[Ore Crops](https://www.planetminecraft.com/data-pack/ore-crops/):** A Minecraft datapacks that adds ore crops. 
