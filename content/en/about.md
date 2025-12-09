@@ -1,8 +1,9 @@
-+++
-date = '2025-07-25T15:24:47+02:00'
-draft = false
-title = 'About Me'
-+++
+---
+title: "About Me"
+date: 2025-07-25T15:24:47+02:00
+draft: false
+layout: "about"
+---
 
 Hi! I am Hackfight (or HaccFight in some cases), a bilingual, 18 years old, self-thaught gamedev from Switzerland.
 
@@ -23,10 +24,10 @@ Obviously I am a big fan of coding stuff, I would not be here otherwise. I am al
 To push even more the geek stereotype I have studied physics aswell as biology and gave myself a challenge by studying one year abroad. \
 I like to take care of all kinds of animals especially the weird ones. I take care of stickbugs, a blob, my cat and a few axolotls. I am partially active in the furry fandom where I updated my electronics skills to make a protogen head. :3 \
 Otherwise I love watching different films and series, listening to music and I am making my first steps into cosplaying. \
-Leaving the geek stereotypes and entering the swiss ones I love chocolate, the mountains and snow. I praticed a lot of different sports: in the mountains, on the water and under the water.
+Leaving the geek stereotypes and entering the swiss ones I love chocolate, the mountains and snow. I praticed a lot of different sports: in the mountains, on the water and under the water. \
 \
 **Online presence:** \
-Even though I don't post much stuff, with time I have ventured through much of the internet, so here is a list of where you can find me:
+Even though I don't post much stuff, with time I have ventured through much of the internet, so here is a list of where you can find me: \
 - Developement:
  - [GitHub](https://github.com/HackFight)
  - [Itch.io](https://hackfight.itch.io)
