@@ -46,10 +46,3 @@ description = "Un projet Python pour jouer avec différentes simulations dans de
 tech = "Python"
 image = "/images/projects/gridworldsystem.png"
 link = "https://github.com/hackfight/GridWorldSystem"
-
-[[projects]]
-title = "Swiss Communities"
-description = "Une commu Discord autour de la Suisse."
-tech = "Discord"
-image = "/images/projects/swisscommunities.png"
-link = "https://discord.gg/6ZXKUSGcKw"
