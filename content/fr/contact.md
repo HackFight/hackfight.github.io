@@ -5,5 +5,5 @@ draft: false
 layout: "contact"
 ---
 
-**Email:** hackfightowo@hackfight.dev  
+**Email:** contact@hackfight.dev  
 **Discord:** hackfight

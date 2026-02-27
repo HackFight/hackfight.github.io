@@ -1,5 +1,5 @@
 ---
-title: "A propos"
+title: "À Propos"
 date: 2025-07-25T15:24:47+02:00
 draft: false
 layout: "about"
