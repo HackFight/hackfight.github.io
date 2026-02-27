@@ -90,7 +90,7 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
   profile_image = "/images/profile_placeholder.jpg" # Place in your site's static/images/ directory
 
   # Social and contact information
-  email = "hackfightowo@hackfight.dev"
+  email = "contact@hackfight.dev"
 
   github = "https://github.com/hackfight"
   github_username = "HackFight"
