@@ -23,29 +23,33 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
     contentDir = "content/en"
     [languages.en.menu]
       [[languages.en.menu.main]]
+        name = "Home"
+        pageRef = "/"
+        weight = 1
+      [[languages.en.menu.main]]
         name = "About"
         pageRef = "/about" # Corresponds to content/en/about.md or content/en/about/_index.md
-        weight = 1
-#      [[languages.en.menu.main]]
-#        name = "Experience"
-#        pageRef = "/experience"
-#        weight = 2
+        weight = 2
+      [[languages.en.menu.main]]
+        name = "Experience"
+        pageRef = "/experience"
+        weight = 3
       [[languages.en.menu.main]]
         name = "Projects"
         pageRef = "/projects"
-        weight = 2
+        weight = 4
 #      [[languages.en.menu.main]]
 #        name = "Blog"
 #        pageRef = "/blogs" # Assumes a section named 'blogs'
-#        weight = 4
+#        weight = 5
       [[languages.en.menu.main]]
         name = "Socials"
         pageRef = "/socials"
-        weight = 5
+        weight = 6
       [[languages.en.menu.main]]
         name = "Contact"
         pageRef = "/contact"
-        weight = 6
+        weight = 7
 
   [languages.fr]
     languageName = "Français"
@@ -54,29 +58,33 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
     contentDir = "content/fr"
     [languages.fr.menu]
       [[languages.fr.menu.main]]
+        name = "Accueil"
+        pageRef = "/"
+        weight = 1
+      [[languages.fr.menu.main]]
         name = "À Propos"
         pageRef = "/about"
-        weight = 1
-#     [[languages.fr.menu.main]]
-#       name = "Expérience"
-#       pageRef = "/experience"
-#       weight = 2
+        weight = 2
+     [[languages.fr.menu.main]]
+       name = "Expérience"
+       pageRef = "/experience"
+       weight = 3
       [[languages.fr.menu.main]]
         name = "Projets"
         pageRef = "/projects"
-        weight = 3
+        weight = 4
 #      [[languages.fr.menu.main]]
 #        name = "Blog"
 #        pageRef = "/blogs" # Assumes a section named 'blogs'
-#        weight = 4
+#        weight = 5
       [[languages.fr.menu.main]]
         name = "Réseaux"
         pageRef = "/socials"
-        weight = 5
+        weight = 6
       [[languages.fr.menu.main]]
         name = "Contact"
         pageRef = "/contact"
-        weight = 6
+        weight = 7
 
 # Taxonomy configuration
 [taxonomies]
@@ -87,7 +95,7 @@ defaultContentLanguageInSubdir = true # Creates URLs like /en/blog/
   # Basic profile information - common across languages
   # This is used by the theme for the author name in the footer, social links, etc.
   name = "HackFight"
-  profile_image = "/images/profile_placeholder.jpg" # Place in your site's static/images/ directory
+  profile_image = "/images/hatsune_miku.jpg" # Place in your site's static/images/ directory
 
   # Social and contact information
   email = "contact@hackfight.dev"

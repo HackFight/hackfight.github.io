@@ -13,11 +13,25 @@ image = "/images/projects/back-to-basics.png"
 link = "https://modrinth.com/shader/btb-back-to-basics"
 
 [[projects]]
+title = "Garry's guide to make truly amazing potions"
+description = "A Game Jam Game for the 2025 Swiss Game Academy Game Jam week."
+tech = "Unity"
+image = "/images/projects/garrys-guide.png"
+link = "https://hackfight.itch.io/garys-guide-to-make-truly-amazing-potions"
+
+[[projects]]
 title = "Graphics lab"
 description = "A C++ project to learn how to use the OpenGL API."
 tech = "C++, OpenGL"
 image = "/images/projects/graphics-lab.png"
 link = "https://github.com/hackfight/Graphics-lab"
+
+[[projects]]
+title = "Rope Dungeon"
+description = "A Game Jam Game for the 2022 Black and White Game Jam."
+tech = "Unity"
+image = "/images/projects/rope-dungeon.png"
+link = "https://hackfight.itch.io/ropedungeon"
 
 [[projects]]
 title = "Core Engine"

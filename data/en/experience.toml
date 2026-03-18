@@ -1,0 +1,38 @@
+[[experience]]
+  role = "CS Delegate"
+  company = "EPFL"
+  company_link = "https://www.epfl.ch/about/"
+  period = "February 2026 - Present"
+  country = "EPFL, Lausanne, Switzerland" # New field for region/country
+  # description = " "
+  responsibilities = [
+    "Representing students and making their voice heard towards superiors.",
+    "Working with other deleguates and superiors.",
+    "Being aware of campus life and being ready to help anyone."
+  ]
+
+[[experience]]
+  role = "Teammate"
+  company = "Game*"
+  company_link = "https://clicgamestar.ch/"
+  period = "September 2025 - Present"
+  country = "EPFL, Lausanne, Switzerland" # New field for region/country
+  description = "Game* is an EPFL association centered around game developement."
+  responsibilities = [
+    "Organising meetings with game developers.",
+    "Worked on marketing and event setup.",
+    "Giving workshops on game developement."
+  ]
+
+[[experience]]
+  role = "IT Support"
+  company = "Uesha Veda"
+  company_link = "https://usha.ch/"
+  period = "2024"
+  country = "Morges, Switzerland" # New field for region/country
+  description = "Behind the scenes IT assistant for hybrid online/presential lessons."
+  responsibilities = [
+    "Setting up any technology required by each individual for their lesson.",
+    "Real-time issue-solving.",
+    "International communication and feedback."
+  ]
