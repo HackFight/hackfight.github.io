@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/fr/</loc>
-    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-15T10:30:00+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,34 +15,8 @@
                 href="http://localhost:1313/fr/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/blogs/</loc>
-    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/blogs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/blogs/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/fr/tags/caelestia/</loc>
-    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/caelestia/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/tags/caelestia/"
-                />
-  </url><url>
     <loc>http://localhost:1313/fr/categories/</loc>
-    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-15T10:30:00+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -54,83 +28,8 @@
                 href="http://localhost:1313/fr/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/blogs/caelestia-guide/</loc>
-    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/blogs/caelestia-guide/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/blogs/caelestia-guide/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/fr/tags/linux/</loc>
-    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/tags/linux/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/fr/tags/</loc>
-    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/tags/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/fr/categories/tutorials/</loc>
-    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/categories/tutorials/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/categories/tutorials/"
-                />
-  </url><url>
     <loc>http://localhost:1313/fr/tags/hugo/</loc>
     <lastmod>2023-03-15T10:30:00+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/tags/hugo/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/fr/blogs/my-post/</loc>
-    <lastmod>2023-03-15T10:30:00+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/blogs/my-post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/blogs/my-post/"
-                />
   </url><url>
     <loc>http://localhost:1313/fr/projects/my-post/</loc>
     <lastmod>2023-03-15T10:30:00+05:30</lastmod>
@@ -148,18 +47,24 @@
                 href="http://localhost:1313/fr/projects/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/tags/web-development/</loc>
+    <loc>http://localhost:1313/fr/tags/</loc>
     <lastmod>2023-03-15T10:30:00+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/web-development/"
+                href="http://localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/tags/web-development/"
+                href="http://localhost:1313/fr/tags/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/fr/categories/tutorials/</loc>
+    <lastmod>2023-03-15T10:30:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fr/tags/web-development/</loc>
+    <lastmod>2023-03-15T10:30:00+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/fr/about/</loc>
     <xhtml:link
@@ -171,6 +76,18 @@
                 rel="alternate"
                 hreflang="fr"
                 href="http://localhost:1313/fr/about/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr/blogs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/blogs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/blogs/"
                 />
   </url><url>
     <loc>http://localhost:1313/fr/contact/</loc>

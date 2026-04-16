@@ -6,22 +6,8 @@
     <description>Recent content in Tags on HackFight.dev</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Mar 2023 10:30:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/fr/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Caelestia</title>
-      <link>http://localhost:1313/fr/tags/caelestia/</link>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/tags/caelestia/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/fr/tags/linux/</link>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/tags/linux/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Hugo</title>
       <link>http://localhost:1313/fr/tags/hugo/</link>
