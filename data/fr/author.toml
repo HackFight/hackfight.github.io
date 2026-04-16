@@ -1,9 +1,0 @@
-[author]
-  name = "HackFight"
-  location = "Suisse"
-  description = "Développeuse de jeux vidéos VR et passionée du low level."
-  profile_image = "/images/your-profile.jpg" # Place in your site's static/images/
-  # Social links
-  github = "https://github.com/hackfight"
-  email = "contact@hackfight.dev"
-  # ... other social links ...

@@ -1,6 +1,5 @@
 ---
 title: "À Propos"
-date: 2025-07-25T15:24:47+02:00
 draft: false
 layout: "about"
 ---
@@ -16,7 +15,7 @@ J'utilise principalement Unity pour mes projets mais j'ai eu utilisé GameMakerS
 Je suis un des fondateurs de [SwissCommunities](https://discord.gg/6ZXKUSGcKw) qui est une communauté centrée autour de la Suisse romande sur internet. Je participe également a des événements comme la [Swiss Game Academy](https://gameacademy.ch/SGA/) depuis quelques années. \
 \
 **Autres:**\
-C'est pas tout: \
+Ce n'est pas tout: \
 J'ai commencé à apprendre avec Minecraft, ce qui fait que je peut coder des [datapacks](https://www.planetminecraft.com/data-pack/ore-crops/), des plugins, des [mods](https://modrinth.com/mod/create-switzerland) et des [*nuanceurs*](https://modrinth.com/shader/btb-back-to-basics) (des shaders). La combinaison SwissCommunities/Minecraft m'a permis d'apprendre les bases des serveurs, panels et protocoles internet. Je me suis aussi intéréssée un peu au développement de sites web et à la structure des ordinateurs (J'ai construit une ALU 8-bit dans Minecraft). J'ai également plein de réseaux sociaux mais que je n'utilise que très peu. \
 \
 **Hobbys:** \

@@ -2,7 +2,7 @@
 <div class="max-w-4xl mx-auto px-4 py-12">
     <h1 class="text-5xl font-bold mb-3 text-text-primary-light dark:text-text-primary-dark">{{ .Title }}</h1>
     <div class="space-y-8">
-        {{ $experienceData := index site.Data .Language.Lang "experience" }}
+        {{ $experienceData := index hugo.Data .Language.Lang "experience" }}
         {{ with $experienceData.experience }}
             {{ range . }}
             <div class="group relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-border-secondary-light dark:before:bg-border-secondary-dark before:rounded-full">
@@ -36,7 +36,7 @@
                             {{ end }}
                         {{ if .responsibilities }}
                         <div class="mt-4">
-                            <h4 class="text-lg font-medium text-text-primary-light dark:text-text-primary-dark mb-3">Key responsibilities:</h4>
+                            <h4 class="text-lg font-medium text-text-primary-light dark:text-text-primary-dark mb-3">Key Responsibilities:</h4>
                             <ul class="list-none space-y-2">
                                 {{ range .responsibilities }}
                                 <li class="text-text-secondary-light dark:text-text-secondary-dark text-lg prose">

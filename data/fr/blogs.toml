@@ -1,0 +1,9 @@
+[[blogs]]
+title = "Lorem Ipsum Systems"
+date = "2025-03-15"
+summary = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem."
+tags = ["Lorem", "Ipsum", "Dolor"]
+content = """
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit...
+"""
+link = "/blogs/caelestia-guide"

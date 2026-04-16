@@ -2,37 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/experience/</loc>
-    <lastmod>2026-03-17T15:27:04+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/socials/</loc>
-    <lastmod>2025-07-31T15:47:04+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/socials/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/socials/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/blogs/</loc>
-    <lastmod>2025-07-25T15:28:54+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/blogs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/blogs/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-07-25T15:28:49+02:00</lastmod>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -44,46 +15,47 @@
                 href="http://localhost:1313/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/projects/</loc>
-    <lastmod>2025-07-25T15:27:59+02:00</lastmod>
+    <loc>http://localhost:1313/en/blogs/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/projects/"
+                href="http://localhost:1313/fr/blogs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/projects/"
+                href="http://localhost:1313/en/blogs/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/contact/</loc>
-    <lastmod>2025-07-25T15:27:04+02:00</lastmod>
+    <loc>http://localhost:1313/en/tags/caelestia/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/contact/"
+                href="http://localhost:1313/fr/tags/caelestia/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/contact/"
+                href="http://localhost:1313/en/tags/caelestia/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
-    <lastmod>2025-07-25T15:24:47+02:00</lastmod>
+    <loc>http://localhost:1313/en/blogs/caelestia-guide/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/about/"
+                href="http://localhost:1313/fr/blogs/caelestia-guide/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/about/"
+                href="http://localhost:1313/en/blogs/caelestia-guide/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -95,7 +67,21 @@
                 href="http://localhost:1313/en/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/tags/linux/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/tags/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/linux/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -105,6 +91,118 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/categories/tutorials/</loc>
+    <lastmod>2026-04-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/categories/tutorials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/tutorials/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/hugo/</loc>
+    <lastmod>2023-03-15T10:30:00+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/hugo/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/blogs/my-post/</loc>
+    <lastmod>2023-03-15T10:30:00+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/blogs/my-post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/blogs/my-post/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/web-development/</loc>
+    <lastmod>2023-03-15T10:30:00+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/tags/web-development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/web-development/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/about/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/contact/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/experience/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/experience/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/experience/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/projects/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/projects/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/socials/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/socials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/socials/"
                 />
   </url>
 </urlset>

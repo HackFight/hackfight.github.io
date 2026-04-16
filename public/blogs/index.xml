@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on HackFight.dev</title>
+    <link>http://localhost:1313/blogs/</link>
+    <description>Recent content in Blogs on HackFight.dev</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Apr 2023 10:30:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caelestia Guide for Linux Beginners</title>
+      <link>http://localhost:1313/blogs/caelestia-guide/</link>
+      <pubDate>Sat, 15 Apr 2023 10:30:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/caelestia-guide/</guid>
+      <description>&lt;p&gt;Ce blog n&amp;rsquo;est pas encore disponible en français!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../blogs/caelestia-guide/&#34;&gt;Version en anglais&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/blogs/my-post/</link>
+      <pubDate>Wed, 15 Mar 2023 10:30:00 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/my-post/</guid>
+      <description>&lt;p&gt;Your post content here&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

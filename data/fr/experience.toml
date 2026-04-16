@@ -6,9 +6,9 @@
   country = "EPFL, Lausanne, Switzerland"
   # description = " "
   responsibilities = [
-    "Représenter les élèves et s'assurer que leur voix soient entendues.",
-    "Travailler et s'organiser avec d'autres délégués et les associations estudiantines.",
-    "Étre au courant de ce qu'il se passe sur le campus et répondre aux questions des étudiants."
+    "- Représenter les élèves et s'assurer que leur voix soient entendues.",
+    "- Travailler et s'organiser avec d'autres délégués et les associations estudiantines.",
+    "- Étre au courant de ce qu'il se passe sur le campus et répondre aux questions des étudiants."
   ]
 
 [[experience]]
@@ -19,9 +19,9 @@
   country = "EPFL, Lausanne, Suisse" # New field for region/country
   description = "Game* est une association de l'EPFL centrée autour de la création de jeux vidéos."
   responsibilities = [
-    "Organisation de workshops avec des dévelopeurs de jeux vidéos.",
-    "Organisation et mises en place d'événements.",
-    "Donner des workshops sur la création de jeux vidéo."
+    "- Organisation de workshops avec des dévelopeurs de jeux vidéos.",
+    "- Organisation et mises en place d'événements.",
+    "- Donner des workshops sur la création de jeux vidéo."
   ]
 
 [[experience]]
@@ -32,7 +32,7 @@
   country = "Morges, Suisse" # New field for region/country
   description = "Assistante en technologie pour des cours hybrides en-ligne/en-présentiel."
   responsibilities = [
-    "Mise en place du matériel requis par chaque individuel pour donner leur cours.",
-    "Réparer des problèmes techniques en temps-réels.",
-    "Communiquer à l'internationale avec les utilisateurs afin d'assurer une expérience stable."
+    "- Mise en place du matériel requis par chaque individuel pour donner leur cours.",
+    "- Réparer des problèmes techniques en temps-réels.",
+    "- Communiquer à l'internationale avec les utilisateurs afin d'assurer une expérience stable."
   ]
