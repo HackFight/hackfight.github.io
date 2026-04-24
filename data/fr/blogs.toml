@@ -4,3 +4,10 @@
 # summary = "Ce blog n'est pas encore disponible en français."
 # tags = ["caelestia", "linux"]
 # link = "/fr/blogs/caelestia-guide"
+
+[[blogs]]
+title = "Ton thème Caelestia PARTOUT!"
+date = "2026-04-22"
+summary = "Ce blog n'est pas encore disponible en français."
+tags = ["caelestia", "linux"]
+link = "/fr/blogs/caelestia-theming"

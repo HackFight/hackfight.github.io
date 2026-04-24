@@ -1,7 +1,7 @@
 ---
 title: "Your Caelestia theme EVERYWHERE!"
 date: 2026-04-22T00:00:00+00:00
-draft: true
+draft: false
 tags: ["caelestia", "linux"]
 categories: ["info"]
 description: "Caelestia theming at it's prime."
@@ -28,6 +28,7 @@ All the apps that have themes that come with Caelestia when you download it:
 
 - [GitHub](https://github.com/ItsABigIgloo/caelestia-sddm)
 - [Discord](https://discord.com/channels/1459365181317709856/1487773795107475596)
+- AUR: [caelestia-sddm-minimalist-git](https://aur.archlinux.org/packages/caelestia-sddm-minimalist-git)
 
 ![minimalist-v2-caelestia-sddm-theme](/images/blogs/caelestia-theming/sddm-theme-minimalist-v2.png)
 

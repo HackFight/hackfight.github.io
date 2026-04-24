@@ -4,3 +4,10 @@
 # summary = "How to go from a blank-slate to a fully functionning Caelestia."
 # tags = ["caelestia", "linux"]
 # link = "/en/blogs/caelestia-guide"
+
+[[blogs]]
+title = "Your Caelestia theme EVERYWHERE!"
+date = "2026-04-22"
+summary = "Caelestia theming at it's prime."
+tags = ["caelestia", "linux"]
+link = "/en/blogs/caelestia-theming"
