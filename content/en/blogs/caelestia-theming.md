@@ -1,6 +1,6 @@
 ---
 title: "Your Caelestia theme EVERYWHERE!"
-date: 2026-04-22T00:00:00+00:00
+date: 2026-04-24T00:00:00+00:00
 draft: false
 tags: ["caelestia", "linux"]
 categories: ["info"]
