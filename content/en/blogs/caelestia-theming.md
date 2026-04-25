@@ -28,9 +28,13 @@ All the apps that have themes that come with Caelestia when you download it:
 
 - [GitHub](https://github.com/ItsABigIgloo/caelestia-sddm)
 - [Discord](https://discord.com/channels/1459365181317709856/1487773795107475596)
-- AUR: [caelestia-sddm-minimalist-git](https://aur.archlinux.org/packages/caelestia-sddm-minimalist-git)
+- AUR: [caelestia-sddm-minimalistv2-git](https://aur.archlinux.org/packages/caelestia-sddm-minimalistv2-git)
 
 ![minimalist-v2-caelestia-sddm-theme](/images/blogs/caelestia-theming/sddm-theme-minimalist-v2.png)
+
+- AUR: [caelestia-sddm-locklike-git](https://aur.archlinux.org/packages/caelestia-sddm-locklike-git)
+
+![minimalist-locklike-sddm-theme](/images/blogs/caelestia-theming/caelestia-locklike-sddm.png)
 
 ## Caelestia Minecraft Ressource Pack
 
