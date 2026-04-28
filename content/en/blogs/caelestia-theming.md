@@ -30,11 +30,11 @@ All the apps that have themes that come with Caelestia when you download it:
 - [Discord](https://discord.com/channels/1459365181317709856/1487773795107475596)
 - AUR: [caelestia-sddm-minimalistv2-git](https://aur.archlinux.org/packages/caelestia-sddm-minimalistv2-git)
 
-![minimalist-v2-caelestia-sddm-theme](/images/blogs/caelestia-theming/sddm-theme-minimalist-v2.png)
+![minimalist-v2-caelestia-sddm-theme](/images/blogs/caelestia-theming/sddm-theme-minimalist-v2.webp)
 
 - AUR: [caelestia-sddm-locklike-git](https://aur.archlinux.org/packages/caelestia-sddm-locklike-git)
 
-![minimalist-locklike-sddm-theme](/images/blogs/caelestia-theming/caelestia-locklike-sddm.png)
+![minimalist-locklike-sddm-theme](/images/blogs/caelestia-theming/caelestia-locklike-sddm.webp)
 
 ## Caelestia Minecraft Ressource Pack
 
@@ -43,4 +43,4 @@ Uuuuh yeah... that wasn't a joke. You can actually have your theme in Minecraft 
 - [GitHub](https://github.com/dim-ghub/Minecraft-Caelestia)
 - [Discord](https://discord.com/channels/1459365181317709856/1496310737797386262)
 
-![minecraft-theme](/images/blogs/caelestia-theming/minecraft-theme.png)
+![minecraft-theme](/images/blogs/caelestia-theming/minecraft-theme.webp)
