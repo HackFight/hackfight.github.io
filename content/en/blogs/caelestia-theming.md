@@ -44,3 +44,10 @@ Uuuuh yeah... that wasn't a joke. You can actually have your theme in Minecraft 
 - [Discord](https://discord.com/channels/1459365181317709856/1496310737797386262)
 
 ![minecraft-theme](/images/blogs/caelestia-theming/minecraft-theme.webp)
+
+## Demo Wallpapers
+Want the wallpapers used in the Caelestia demo?
+
+Here they are: [Demo Wallpapers (Official Website)](https://caelestiashell.com/wallpapers.zip)
+
+![demo-wallpaper](/images/blogs/caelestia-theming/demo-wallpaper.webp)
