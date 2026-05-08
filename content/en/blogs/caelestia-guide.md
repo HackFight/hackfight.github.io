@@ -64,10 +64,10 @@ By default the layout will be `en-us` (qwerty). To change that do this:
 
 ```bash
 # List all available layouts
-localectl list-keymaps
+$ localectl list-keymaps
 
 # Set your layout
-loadkeys <your-layout>
+$ loadkeys <your-layout>
 ```
 
 Verify you have internet access by running `ping ping.archlinux.org` (Ctrl+C
@@ -77,19 +77,19 @@ wireless network you'll need to use [iwctl]. Here's how you can quickly do it:
 
 ```bash
 # Find your wifi device
-iwctl device list
+$ iwctl device list
 
 # Power on your device
-iwctl device <name-of-your-device> set-property Powered on
+$ iwctl device <name-of-your-device> set-property Powered on
 
 # Initiate a scan for networks (won't output anything)
-iwctl station <name-of-your-device> scan
+$ iwctl station <name-of-your-device> scan
 
 # List all available networks
-iwctl station <name-of-your-device> get-networks
+$ iwctl station <name-of-your-device> get-networks
 
 # Connect to the network
-iwctl station <name-of-your-device> connect <network-SSID>
+$ iwctl station <name-of-your-device> connect <network-SSID>
 
 ```
 
@@ -178,10 +178,10 @@ For this we'll use [NetworkManager] that we selected earlier.
 
 ```bash
 # List nearby WI-FI networks
-nmcli device wifi list
+$ nmcli device wifi list
 
 # Connect to a network
-nmcli device wifi connect <SSID> password <password>
+$ nmcli device wifi connect <SSID> password <password>
 ```
 
 ## Installing Caelestia
@@ -197,16 +197,20 @@ $ ~/.local/share/caelestia/install.fish --help
 
 The install file will print its help information allowing you to see what you
 can have it automatically install. For example, to include Zen browser, you
-would include `--zen` in the install command:
+would include `--zen` in the install command. You can also add the `--noconfirm`
+argument to auto accept defaults.
+
+**You should take an AUR-helper!** With this you should be able to work on Arch
+without ever needing to build a package manually.
 
 ```bash
-$ ~/.local/share/caelestia/install.fish --zen
+$ ~/.local/share/caelestia/install.fish --aur-helper=yay <other-arguments?>
 ```
 
-Installation will take a while, but assuming you have no errors, when the
-installer finishes you should be able to boot into your new Caelestia install
-simply by running `start-hyprland`. Congratulations! You have succesfully
-installed Caelestia.
+Installation will take a while and will require your attention, if you don't understand
+a prompt just press enter to accept the default option. Assuming you have no errors,
+when the installer finishes you should be able to boot into your new Caelestia install
+simply by running `start-hyprland`. Congratulations! You have succesfully installed Caelestia.
 
 But this is far from a complete system. As stated at the beginning at this state
 you still need to install a lot of things for your computer to be usable on a daily
@@ -224,13 +228,47 @@ With the package manager, [pacman], or from the [Arch User Repository (AUR)].
 > **Be careful with the AUR!** It is accessible to anyone, avoid downloading shady packages.
 
 ### Installing packages
+
 With the package manager:
 ```bash
-sudo pacman -S <your-package>
+$ sudo pacman -S <your-package>
 ```
 
 For the AUR you'll need to retrieve and then build the package you need. *But fear not!*
-Fortunately there are AUR-helpers which do all of this for you! Here we'll use [yay].
+Fortunately there are AUR-helpers which do all of this for you! Here we'll use one of the
+most commonly used helpers: [yay]. How to install it from scratch can be found [here](https://github.com/Jguer/yay) but hopefully you have installed it with Caelestia earlier. Here's how you install
+a package with yay.
+
+```bash
+$ yay -S <your-package>
+```
+
+### Updating packages
+
+Updating the package manager:
+```bash
+$ sudo pacman -Syu
+```
+
+Updating the AUR will usually take more time and *really* eat your CPU as some packages get
+compiled on install/update. After some time this process can easily take up to 20 minutes,
+especially if you don't update regularly.
+
+```bash
+$ yay -Syu
+# or simply
+$ yay
+```
+
+### Uninstalling packages
+
+```bash
+# package manager
+$ sudo pacman -R <your-package>
+
+# AUR
+$ yay -R <your-package>
+```
 
 ## Display Manager
 
@@ -239,6 +277,11 @@ When booting your computer you are taken through a few screens. Firstly your boo
 you'll always need to login in a terminal and run `start-hyprland`. Of course, this can
 be changed. There are many different DMs and here we'll use SDDM which is easy to install
 and has a lot of custom themes such as a Caelestia one!
+
+```bash
+# Install SDDM
+$ sudo pacman -S sddm
+```
 
 [explainshell]: https://explainshell.com/
 [Discord server]: https://discord.gg/BGDCFCmMBk
