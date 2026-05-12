@@ -13,7 +13,7 @@ As of lately, a lot of new people come to the official Caelestia [Discord server
 
 The goal of this tutorial is to take you from almost any personal computer, to a usable computer with Caelestia for everyday life, with more or less quality of life features. I will start by explaining a few concepts around Caelestia so that you understand exactly *what* you are getting yourself into and will then explain things along the way.
 
-**THIS IS NOT THE ULTIMATE TUTORIAL!** This tutorial is based on my experience and preferences.It is not official and it will bring you through installing Caelestia but also some additional utilities and QoL that are not linked in any way to Caelestia and it's devs. I'll do my best to make it clear when something is optional or not as well as redirecting to the official docs.
+**THIS IS NOT THE ULTIMATE TUTORIAL!** This tutorial is based on my experience and preferences. It is not official and it will bring you through installing Caelestia but also some additional utilities and QoL that are not linked in any way to Caelestia and it's devs. I'll do my best to make it clear when something is optional or not as well as redirecting to the official docs.
 
 > ## A Note on Safety
 >
@@ -366,6 +366,35 @@ or set it with the CLI:
 $ caelestia scheme set -n dynamic
 ```
 
+## Important packages
+
+### File manager
+
+Pretty self-explanatory, there are again many but Caelestia is setup to use `thunar` by default.
+You can install it with the package manager. You can also install different packages to have
+thumbnails for different files and other utilities.
+- `gvfs` to show the trash can and removable media.
+- `thunar-archive-plugin` and `ark` to compress and decompress files.
+- `thunar-media-tags-plugin` for more features with media files.
+- `thunar-volman` to show your removable drives automatically.
+- `tumbler` and `ffmpegthumbnailer` for thumbnails.
+- `tumbler-extra-thumbnailers` (AUR) for extra thumbnails support.
+
+### Media Viewers
+
+Again... many choices, personally I use `loupe` for images, `showtime` for videos with `gst-libav` for the codecs and `decibels` for the audio, but here is a list of [Multimedia Applications] for you to test different things.
+
+### Mailbox
+
+`thunderbird` is kind of the only choice for this. There is another option which I personally find
+nicer called `evolution` but it has less support than Thunderbird, therefore, I cannot use it for
+my university and I guess the same problem occurs with work emails.
+
+### Browser
+
+You maybe chose the `--zen` option when installing Caelestia. Zen is a firefox based browser which
+works well... I'm not going to teach you anything about browsers '^^. All well known browsers work.
+
 ## Display Manager
 
 When booting your computer you are taken through a few screens. Firstly your bootloader
@@ -393,3 +422,4 @@ $ sudo pacman -S sddm
 [Arch User Repository (AUR)]: https://wiki.archlinux.org/title/Arch_User_Repository
 [yay]: https://aur.archlinux.org/packages/yay
 [Hyprland Doc]: https://wiki.hypr.land/0.44.0/Configuring/Monitors
+[Multimedia Applications]: https://wiki.archlinux.org/title/List_of_applications/Multimedia
