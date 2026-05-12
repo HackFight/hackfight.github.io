@@ -406,7 +406,38 @@ and has a lot of custom themes such as a Caelestia one!
 ```bash
 # Install SDDM
 $ sudo pacman -S sddm
+
+# Enable it to start on boot
+$ systemctl enable sddm.service
 ```
+
+### Caelestia theme
+
+To have a nicer SDDM than the default theme you can check the [Caelestia SDDM Theme].
+You can download it from the AUR in one of three different versions: locklike, minimalist and minimalistV2
+
+```bash
+# locklike theme
+yay -S caelestia-sddm-locklike-git
+
+# minimalist theme
+yay -S caelestia-sddm-minimalist-git
+
+# minimalistV2 theme
+yay -S caelestia-sddm-minimalistv2-git
+```
+
+# Outro
+
+At this point you're pretty much ready! You should have everything you need to be able to
+find stuff out on your own now. Don't forget to join the [Discord server] to find help about
+anything Caelestia or even Linux related.
+
+And in case I don't see ya, good afternoon, good evening, and good night.
+
+## More about Caelestia
+
+- [Caelestia Theming]
 
 [explainshell]: https://explainshell.com
 [Discord server]: https://discord.gg/BGDCFCmMBk
@@ -423,3 +454,5 @@ $ sudo pacman -S sddm
 [yay]: https://aur.archlinux.org/packages/yay
 [Hyprland Doc]: https://wiki.hypr.land/0.44.0/Configuring/Monitors
 [Multimedia Applications]: https://wiki.archlinux.org/title/List_of_applications/Multimedia
+[Caelestia SDDM Theme]: https://github.com/ItsABigIgloo/caelestia-sddm
+[Caelestia Theming]: https://www.hackfight.dev/en/blogs/caelestia-theming/

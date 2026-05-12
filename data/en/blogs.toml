@@ -6,6 +6,13 @@
 # link = "/en/blogs/caelestia-guide"
 
 [[blogs]]
+title = "Caelestia Guide for Linux Beginners"
+date = "2026-05-12"
+summary = "How to go from a blank-slate to a fully functionning Caelestia."
+tags = ["caelestia", "linux"]
+link = "/en/blogs/caelestia-guide"
+
+[[blogs]]
 title = "Your Caelestia theme EVERYWHERE!"
 date = "2026-04-24"
 summary = "Caelestia theming at it's prime."

@@ -6,6 +6,13 @@
 # link = "/fr/blogs/caelestia-guide"
 
 [[blogs]]
+title = "Guide Caelestia pour les débutants Linux"
+date = "2026-05-12"
+summary = "Ce blog n'est pas encore disponible en français."
+tags = ["caelestia", "linux"]
+link = "/fr/blogs/caelestia-guide"
+
+[[blogs]]
 title = "Ton thème Caelestia PARTOUT!"
 date = "2026-04-24"
 summary = "Ce blog n'est pas encore disponible en français."
