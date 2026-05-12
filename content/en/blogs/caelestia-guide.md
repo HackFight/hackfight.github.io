@@ -1,7 +1,7 @@
 ---
 title: "Caelestia Guide for Linux Beginners"
 date: 2026-04-16T00:00:00+00:00 # Or your local timezone
-draft: true
+draft: false
 tags: ["caelestia", "linux"]
 categories: ["tutorials"]
 description: "How to go from a blank-slate to a fully functionning Caelestia."
@@ -210,11 +210,24 @@ $ ~/.local/share/caelestia/install.fish --aur-helper=yay <other-arguments?>
 Installation will take a while and will require your attention, if you don't understand
 a prompt just press enter to accept the default option. Assuming you have no errors,
 when the installer finishes you should be able to boot into your new Caelestia install
-simply by running `start-hyprland`. Congratulations! You have succesfully installed Caelestia.
+simply by running `start-hyprland`. Reboot once to fix any errors and congratulations! You have succesfully installed Caelestia.
 
 But this is far from a complete system. As stated at the beginning at this state
 you still need to install a lot of things for your computer to be usable on a daily
 basis.
+
+### Caelestia default shortcuts
+
+- `Super` - open launcher
+- `Super` + `#` - switch to workspace `#`
+- `Super Alt` + `#` - move window to workspace `#`
+- `Super` + `T` - open terminal (foot)
+- `Super` + `W` - open browser (zen)
+- `Super` + `C` - open IDE (vscodium)
+- `Super` + `S` - toggle special workspace or close current special workspace
+- `Ctrl Alt` + `Delete` - open session menu
+- `Ctrl Super` + `Space` - toggle media play state
+- `Ctrl Super Alt` + `R` - restart the shell
 
 > From now on, everything is purely optional and subject to personal preferences!
 
@@ -270,6 +283,89 @@ $ sudo pacman -R <your-package>
 $ yay -R <your-package>
 ```
 
+# Setting up your Caelestia
+
+## Basic Configuration
+
+### Understanding where goes what
+
+Packages sometime provide a config file and sometime you'll need to create it yourself,
+but either way it is recommended to make your own file apart from the default config
+file as it will most likely be reset on updates, erasing your configurations. For
+this Caelestia comes already setup with `hypr-user.conf` and `hypr-vars.conf` in
+`~/.config/caelestia/`. To put your custom Hyprland config. It is here that you'll setup
+things like your keyboard layout, your monitors and your window rules.
+
+### Editing files
+
+If you have installed vs-code with Caelestia, you'll be able to open any file with it by
+running :
+
+```bash
+# Open file with vscodium
+$ code <path-to-file>
+```
+
+But for quick config changes this is not the most pratical way, instead you may want to use a CLI
+editor. CLI stands for Command Line Interface, meaning that you'll be able to be a true Linux
+user and look like you're entering the mainframe when you are indeed just changing the color
+of a button.
+
+For CLI file editors, the beginner friendly option is `nano`, because it works as you expect and
+the basic commands are shown on screen. You will hear a lot about `vim` and it's variants and it is supposedly better but it is stupidly hard to get the hang of it for a file editor. If you believe
+you'll work a lot in the terminal you may want to give it a try though.
+
+You can install both with the package manager. And open files just like shown above but with the name
+of your editor instead.
+
+### Keyboard Layout
+
+If you don't have a QWERTY keyboard, this will be the first thing you want to setup.
+You can set it up in `hypr-user.conf` by adding this to it:
+
+```txt
+# Keyboard Layout
+input {
+    kb_layout = <your-layout>
+    kb_variant = <your-variant> # This is optional
+}
+```
+
+If you have an uncommon layout it might be a struggle to find the correct combination.
+Here is an exemple for a French(Swiss) keyboard layout.
+
+```txt
+# Keyboard Layout
+input {
+    kb_layout = ch
+    kb_variant = fr
+}
+```
+
+### Monitors
+
+If you have any problem with your monitors (scaling, rotatio, color space, etc...) go read the [Hyprland Doc].
+
+### Shell config
+
+To config your shell you'll need to create a file named `shell.json` in `~/.config/caelestia/`. And add
+anything you want from [this example](https://github.com/caelestia-dots/shell#example-configuration) on the GitHub. I recommend to fully copy-paste it and then changing what you want.
+
+### Caelestia CLI config
+
+You can config different Caelestia theme related things by creating `cli.json` in `~/.config/caelestia/`
+and, similarly as above, set it up with [this example](https://github.com/caelestia-dots/cli#configuring).
+
+### Wallpaper & Scheme
+
+You can add your wallpapers to `~/Pictures/Wallpapers/` and select one by typing `>wallpaper` in your launcher. To have your scheme change with your wallpaper you can chose a dynamic scheme in your launcher
+or set it with the CLI:
+
+```bash
+# Set the Caelestia scheme to dynamic
+$ caelestia scheme set -n dynamic
+```
+
 ## Display Manager
 
 When booting your computer you are taken through a few screens. Firstly your bootloader
@@ -283,16 +379,17 @@ and has a lot of custom themes such as a Caelestia one!
 $ sudo pacman -S sddm
 ```
 
-[explainshell]: https://explainshell.com/
+[explainshell]: https://explainshell.com
 [Discord server]: https://discord.gg/BGDCFCmMBk
 [ArchWiki]: https://wiki.archlinux.org
-[Arch install image]: https://archlinux.org/download/
+[Arch install image]: https://archlinux.org/download
 [USB flash installation medium]: https://wiki.archlinux.org/title/USB_flash_installation_medium
 [Arch Installation guide]: https://wiki.archlinux.org/title/Installation_guide
 [Reflector]: https://wiki.archlinux.org/title/Reflector
-[BalenaEtcher]: https://etcher.balena.io/
+[BalenaEtcher]: https://etcher.balena.io
 [iwctl]: https://wiki.archlinux.org/title/Iwctl
 [NetworkManager]: https://wiki.archlinux.org/title/NetworkManager#
 [pacman]: https://wiki.archlinux.org/title/Pacman
 [Arch User Repository (AUR)]: https://wiki.archlinux.org/title/Arch_User_Repository
 [yay]: https://aur.archlinux.org/packages/yay
+[Hyprland Doc]: https://wiki.hypr.land/0.44.0/Configuring/Monitors
