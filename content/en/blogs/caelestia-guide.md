@@ -9,9 +9,9 @@ description: "How to go from a blank-slate to a fully functionning Caelestia."
 
 So Caelestia looks cool and you want it. Great! Whether you never touched Linux or want to switch from a simpler distro, this tutorial might help you.
 
-As of lately, a lot of new people come to the official Caelestia [Discord server] wanting to *install* Caelestia even though it is still very much in developement and going through many iterations. And we are not only talking about experienced Linux users of course, there are also many people like you and me who want to directly try to setup Caelestia with little to no Linux experience.
+As of lately, a lot of new people come to the official Caelestia [Discord server] wanting to install Caelestia even though it is still very much in developement and going through many iterations. And we are not only talking about experienced Linux users of course, there are also many people like you and me who want to directly try to setup Caelestia with little to no Linux experience.
 
-The goal of this tutorial is to take you from almost any personal computer, to a usable computer with Caelestia for everyday life, with more or less quality of life features. I will start by explaining a few concepts around Caelestia so that you understand exactly *what* you are getting yourself into and will then explain things along the way.
+The goal of this tutorial is to take you from almost any personal computer, to a usable computer with Caelestia for everyday life, with more or less quality of life features. I will start by explaining a few concepts around Caelestia so that you understand exactly what you are getting yourself into and will then explain things along the way.
 
 **THIS IS NOT THE ULTIMATE TUTORIAL!** This tutorial is based on my experience and preferences. It is not official and it will bring you through installing Caelestia but also some additional utilities that are not linked in any way to Caelestia and it's devs. I'll do my best to make it clear when something is optional or not as well as redirecting to the official docs.
 
@@ -23,7 +23,7 @@ The goal of this tutorial is to take you from almost any personal computer, to a
 
 ### What is Caelestia?
 
-Caelestia is a combination of a custom shell and it's dotfiles using Arch... in simpler terms: It is all the code and configurations that bring your computer from a Linux terminal to the cool computer interface you have seen in the demos. But it is *only* that, meaning that it does not include a login screen nor a way to use a usb drive or anything to correctly use your graphics cards. This is part of the Linux philosophy, which Arch Linux follows closely. You can have anything you want as long as you know how to set it up. :)
+Caelestia is a combination of a custom shell and it's dotfiles using Arch... in simpler terms: It is all the code and configurations that bring your computer from a Linux terminal to the cool computer interface you have seen in the demos. But it is only that, meaning that it does not include a login screen nor a way to use a usb drive or anything to correctly use your graphics cards. This is part of the Linux philosophy, which Arch Linux follows closely. You can have anything you want as long as you know how to set it up. :)
 
 ### What is Arch?
 
@@ -203,7 +203,7 @@ argument to auto accept defaults.
 without ever needing to build a package manually.
 
 ```bash
-$ ~/.local/share/caelestia/install.fish --aur-helper=yay <other-arguments?>
+$ ~/.local/share/caelestia/install.fish --aur-helper=paru <other-arguments?>
 ```
 
 Installation will take a while and will require your attention, if you don't understand
@@ -248,38 +248,44 @@ $ sudo pacman -S <your-package>
 
 For the AUR you'll need to retrieve and then build the package you need. *But fear not!*
 Fortunately there are AUR-helpers which do all of this for you! Here we'll use one of the
-most commonly used helpers: [yay]. How to install it from scratch can be found [here](https://github.com/Jguer/yay) but hopefully you have installed it with Caelestia earlier. Here's how you install
-a package with yay.
+most commonly used helpers: [paru]. How to install it from scratch can be found [here](https://github.com/Morganamilo/paru) but hopefully you have installed it with Caelestia earlier. Here's how you install
+a package with paru.
 
 ```bash
-$ yay -S <your-package>
+$ paru -S <your-package>
 ```
 
 ### Updating packages
 
 Updating the package manager:
 ```bash
+# List outdated packages
+$ pacman -Qu
+
+# Update packages
 $ sudo pacman -Syu
 ```
 
-Updating the AUR will usually take more time and *really* eat your CPU as some packages get
+Updating the AUR will usually take more time and eat your CPU as some packages get
 compiled on install/update. After some time this process can easily take up to 20 minutes,
 especially if you don't update regularly.
 
 ```bash
-$ yay -Syu
-# or simply
-$ yay
+# List outdated packages
+$ paru -Qua
+
+# Update all packages
+$ paru -Sua
 ```
 
 ### Uninstalling packages
 
 ```bash
 # package manager
-$ sudo pacman -R <your-package>
+$ sudo pacman -Rns <your-package>
 
 # AUR
-$ yay -R <your-package>
+$ paru -Rns <your-package>
 ```
 
 # Setting up your Caelestia
@@ -301,7 +307,10 @@ If you have installed vs-code with Caelestia, you'll be able to open any file wi
 running :
 
 ```bash
-# Open file with vscodium
+# If you chose "codium" when installing Caelestia
+$ codium <path-to-file>
+
+# If you chose "code"
 $ code <path-to-file>
 ```
 
@@ -348,7 +357,7 @@ If you have any problem with your monitors (scaling, rotatio, color space, etc..
 ### Shell config
 
 To config your shell you'll need to create a file named `shell.json` in `~/.config/caelestia/`. And add
-anything you want from [this example](https://github.com/caelestia-dots/shell#example-configuration) on the GitHub. I recommend to fully copy-paste it and then changing what you want.
+anything you want to change from [this example](https://github.com/caelestia-dots/shell#example-configuration) on the GitHub.
 
 ### Caelestia CLI config
 
@@ -385,9 +394,7 @@ Again... many choices, personally I use `loupe` for images, `showtime` for video
 
 ### Mailbox
 
-`thunderbird` is kind of the only choice for this. There is another option which I personally find
-nicer called `evolution` but it has less support than Thunderbird, therefore, I cannot use it for
-my university and I guess the same problem occurs with work emails.
+`thunderbird` is kind of the only choice for this. There is also `evolution` but it has less support than Thunderbird, therefore, I personally cannot use it for my university and I guess the same problem occurs with work emails.
 
 ### Browser
 
@@ -397,7 +404,7 @@ works well... I'm not going to teach you anything about browsers '^^. All well k
 ## Display Manager
 
 When booting your computer you are taken through a few screens. Firstly your bootloader
-(GRUB in our case) and then, optionally, a Display Manager to select the user. For now
+(certainly GRUB in our case) and then, optionally, a Display Manager to select the user. For now
 you'll always need to login in a terminal and run `start-hyprland`. Of course, this can
 be changed. There are many different DMs and here we'll use SDDM which is easy to install
 and has a lot of custom themes such as a Caelestia one!
@@ -413,23 +420,23 @@ $ systemctl enable sddm.service
 ### Caelestia theme
 
 To have a nicer SDDM than the default theme you can check the [Caelestia SDDM Theme].
-You can download it from the AUR in one of three different versions: locklike, minimalist and minimalistV2
+You can download it from the AUR in one of three different versions: `locklike`, `minimalist` and `minimalistV2`
 
 ```bash
 # locklike theme
-yay -S caelestia-sddm-locklike-git
+paru -S caelestia-sddm-locklike-git
 
 # minimalist theme
-yay -S caelestia-sddm-minimalist-git
+paru -S caelestia-sddm-minimalist-git
 
 # minimalistV2 theme
-yay -S caelestia-sddm-minimalistv2-git
+paru -S caelestia-sddm-minimalistv2-git
 ```
 
 # Outro
 
 At this point you're pretty much ready! You should have everything you need to be able to
-find stuff out on your own now. Don't forget to join the [Discord server] to find help about
+find out stuff on your own now. Don't forget to join the [Discord server] to find help about
 anything Caelestia or even Linux related.
 
 And in case I don't see ya, good afternoon, good evening, and good night.
@@ -450,7 +457,7 @@ And in case I don't see ya, good afternoon, good evening, and good night.
 [NetworkManager]: https://wiki.archlinux.org/title/NetworkManager#
 [pacman]: https://wiki.archlinux.org/title/Pacman
 [Arch User Repository (AUR)]: https://wiki.archlinux.org/title/Arch_User_Repository
-[yay]: https://aur.archlinux.org/packages/yay
+[paru]: https://github.com/Morganamilo/paru
 [Hyprland Doc]: https://wiki.hypr.land/0.44.0/Configuring/Monitors
 [Multimedia Applications]: https://wiki.archlinux.org/title/List_of_applications/Multimedia
 [Caelestia SDDM Theme]: https://github.com/ItsABigIgloo/caelestia-sddm
