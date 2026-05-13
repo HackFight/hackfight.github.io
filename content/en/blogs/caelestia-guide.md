@@ -330,6 +330,10 @@ For CLI file editors, the beginner friendly option is `nano`, because it works a
 the basic commands are shown on screen. You will hear a lot about `vim` and it's variants and it is supposedly better but it is stupidly hard to get the hang of it for a file editor. If you believe
 you'll work a lot in the terminal you may want to give it a try though.
 
+For `nano` you will need to just know these two shortcuts:
+- `Ctrl` + `S` to save
+- `Ctrl` + `X` to exit
+
 You can install both with the package manager. And open files just like shown above but with the name
 of your editor instead.
 
@@ -365,6 +369,8 @@ If you have any problem with your monitors (scaling, rotatio, color space, etc..
 
 To config your shell you'll need to create a file named `shell.json` in `~/.config/caelestia/`. And add
 anything you want to change from [this example](https://github.com/caelestia-dots/shell#example-configuration) on the GitHub.
+
+To create the file you can just `nano` your way to where it should be and it will create itself when you save the file.
 
 ### Caelestia CLI config
 
