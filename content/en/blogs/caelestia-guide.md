@@ -1,9 +1,9 @@
 ---
 title: "Caelestia Guide for Linux Beginners"
-date: 2026-05-12T00:00:00+00:00 # Or your local timezone
+date: 2026-05-13T00:00:00+00:00 # Or your local timezone
 draft: false
 tags: ["caelestia", "linux"]
-categories: ["tutorials"]
+categories: ["tutorial"]
 description: "How to go from a blank-slate to a fully functionning Caelestia."
 ---
 
@@ -252,7 +252,7 @@ most commonly used helpers: [paru]. How to install it from scratch can be found 
 a package with paru.
 
 ```bash
-$ paru -S <your-package>
+$ paru <your-package>
 ```
 
 ### Updating packages
@@ -275,7 +275,7 @@ especially if you don't update regularly.
 $ paru -Qua
 
 # Update all packages
-$ paru -Sua
+$ paru
 ```
 
 ### Uninstalling packages
@@ -286,6 +286,13 @@ $ sudo pacman -Rns <your-package>
 
 # AUR
 $ paru -Rns <your-package>
+```
+
+### Cleaning
+
+```bash
+# Cleanup unneeded dependencies
+$ paru -c
 ```
 
 # Setting up your Caelestia
