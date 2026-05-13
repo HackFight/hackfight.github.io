@@ -13,7 +13,7 @@ As of lately, a lot of new people come to the official Caelestia [Discord server
 
 The goal of this tutorial is to take you from almost any personal computer, to a usable computer with Caelestia for everyday life, with more or less quality of life features. I will start by explaining a few concepts around Caelestia so that you understand exactly *what* you are getting yourself into and will then explain things along the way.
 
-**THIS IS NOT THE ULTIMATE TUTORIAL!** This tutorial is based on my experience and preferences. It is not official and it will bring you through installing Caelestia but also some additional utilities and QoL that are not linked in any way to Caelestia and it's devs. I'll do my best to make it clear when something is optional or not as well as redirecting to the official docs.
+**THIS IS NOT THE ULTIMATE TUTORIAL!** This tutorial is based on my experience and preferences. It is not official and it will bring you through installing Caelestia but also some additional utilities that are not linked in any way to Caelestia and it's devs. I'll do my best to make it clear when something is optional or not as well as redirecting to the official docs.
 
 > ## A Note on Safety
 >
@@ -57,10 +57,9 @@ I recommend reading the ArchWiki so that you understand how writing an ISO works
 ## Starting the Installation
 
 Once you have booted up your live image, you will be presented by a simple
-terminal welcoming you to the Arch installation medium, and suggesting that
-you verify your internet connection and run `archinstall`.
+terminal welcoming you to the Arch installation medium.
 
-By default the layout will be `en-us` (qwerty). To change that do this:
+By default the keyboard layout will be `en-us` (qwerty). To change that do this:
 
 ```bash
 # List all available layouts
@@ -97,9 +96,9 @@ Once you are connected to the internet, run `archinstall`.
 
 ## Configuring your Installation
 
-The Arch install script provides a simple terminal user interface that
+The `archinstall` script provides a simple terminal user interface that
 effectively walks you through the install process. You can navigate it with
-the *arrow keys*, *enter* and *escape* and select with spacebar. Most options are up to you,
+the `arrow keys`, `enter` and `escape` and select with spacebar. Most options are up to you,
 but you'll need to choose a few specific things during the install process,
 so follow along; I'll tell you when you need to pick something specific.
 
@@ -117,16 +116,16 @@ the mirrorlist on demand.
 The next step is setting up your hard drive(s). The installer will offer to
 create a best-effort default partition layout, and this may well be sufficient
 for many users. Choosing a filesystem is also mostly up to you, though for new
-users the most commonly recommended filesystem types are *btrfs* and *ext4*.
-If you don't know what to choose, *ext4* is the default for many distros, and
+users the most commonly recommended filesystem types are `btrfs` and `ext4`.
+If you don't know what to choose, `ext4` is the default for many distros, and
 is a good choice for your first install. In the next step, swap should be
 enabled by default.
 
 ### Bootloader and Kernel Configuration
 
-For this tutorial you'll need to select GRUB as your bootloader. The bootloader
+For this tutorial, I recommend you pick GRUB as your bootloader. The bootloader
 is the first thing that shows up when you boot your computer and I'll later show
-how to customise it. The default *linux* kernel is fine for most users.
+how to customise it. The default `linux` kernel is fine for most users.
 
 ### Hostname and Authentication
 
@@ -135,7 +134,7 @@ anything beyond what your computer calls itself, and what other computers on a
 local network will see it as.
 
 In the Authentication section, you'll want to do a few things. First off, set a
-good password for the *root* account. Second, you'll need to add a new user
+good password for the `root` account. Second, you'll need to add a new user
 account because you shouldn't be using the root account directly for much of
 anything. In fact, Wayland will complain if you try to launch a session as
 root. Set the username and password to whatever makes you happy, this is what
@@ -145,19 +144,19 @@ This will allow your user to run administrative commands.
 ### Profile Selection, Applications, and Networking
 
 **Warning!** Even though Caelestia is built on Hyprland you should **not**
-select the Hyprland profile and use the *Minimal* one instead. The Hyprland profile
+select the Hyprland profile and use the `Minimal` one instead. The Hyprland profile
 is bundled with a few things that we don't want for Caelestia and so we'll install
 hyprland later.
 
 Under the Applications section, enable bluetooth if your computer supports it,
-and set audio to *pipewire*. Under Network Config, we're going to choose
-*Use Network Manager (default backend)*.
+and set audio to `pipewire`. Under Network Config, we're going to choose
+`Use Network Manager (default backend)`.
 
-While the *Minimal* profile gives us a basic Arch install, there are a few
+While the `Minimal` profile gives us a basic Arch install, there are a few
 other packages you'll need in order to get Caelestia working, so we're going to
 add them in the Additional Packages section. Add the following packages before
 moving on: `fish`, `git`, `pybind11`, and `hyprland`. You can search for a package
-with "/". Once all are selected, press *enter* to return to `archinstall`.
+with "/". Once all are selected, press `enter` to return to `archinstall`.
 
 Finally, set your timezone to whatever is geographically accurate for you, and
 hit the Install button! This might take a while depending of your internet connection.
