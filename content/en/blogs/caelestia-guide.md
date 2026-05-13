@@ -1,6 +1,6 @@
 ---
 title: "Caelestia Guide for Linux Beginners"
-date: 2026-04-16T00:00:00+00:00 # Or your local timezone
+date: 2026-05-12T00:00:00+00:00 # Or your local timezone
 draft: false
 tags: ["caelestia", "linux"]
 categories: ["tutorials"]
